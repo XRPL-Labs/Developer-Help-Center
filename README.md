@@ -2,8 +2,6 @@
 description: >-
   You focus on building your cool app. We make sure your app & Xumm users can
   interact. Safely & smoothly.
-cover: .gitbook/assets/Xumm Dev SDK header
-coverY: 7
 ---
 
 # Build on Xumm

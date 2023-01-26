@@ -1,2 +1,2 @@
-# Page 3
+# Xumm SDK Intro
 

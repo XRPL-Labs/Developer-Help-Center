@@ -58,7 +58,7 @@
     * [getRates()](js-ts-sdk/sdk-ts-js/xumm.helpers-.../getrates.md)
     * [getCuratedAssets()](js-ts-sdk/sdk-ts-js/xumm.helpers-.../getcuratedassets.md)
     * [getKycStatus()](js-ts-sdk/sdk-ts-js/xumm.helpers-.../getkycstatus.md)
-    * [verifyUserTokens()](js-ts-sdk/sdk-ts-js/xumm.helpers-.../verifyusertokens.md)
+    * [verifyUserTokens(\[ ... \])](js-ts-sdk/sdk-ts-js/xumm.helpers-.../verifyusertokens-....md)
   * [Xumm.user { ... }](js-ts-sdk/sdk-ts-js/xumm.user-....md)
   * [Xumm.environment { ... }](js-ts-sdk/sdk-ts-js/xumm.environment-....md)
   * [Xumm.payload { ... }](js-ts-sdk/sdk-ts-js/xumm.payload-.../README.md)

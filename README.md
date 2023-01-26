@@ -8,15 +8,21 @@ coverY: 7
 
 # Build on Xumm
 
-The Xumm platform allows developers and app users to "meet up". While app users can simply use the Xumm app to manage their XRP ledger accounts, balances and transactions, the true power of Xumm can be experienced through the Xumm SDK, using our platform made available for developers.
+**The Xumm platform allows developers and app users to "meet up".**
 
-Developers can build applications and allow Xumm users to interact with the apps.&#x20;
+While app users can simply use the Xumm app to manage their XRP ledger accounts, balances and transactions, the true power of Xumm can be experienced through the Xumm SDK, using our platform made available for developers.
 
 ## Ways to interact
 
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th data-hidden></th><th data-hidden></th></tr></thead><tbody><tr><td><a data-mention href="build-on-xumm/client-side-web-apps-web3.md">client-side-web-apps-web3.md</a></td><td></td><td></td></tr><tr><td><a data-mention href="build-on-xumm/xapp-web-app-in-xumm.md">xapp-web-app-in-xumm.md</a></td><td></td><td></td></tr><tr><td><a data-mention href="build-on-xumm/backend-service-s.md">backend-service-s.md</a></td><td></td><td></td></tr><tr><td><a data-mention href="build-on-xumm/xumm-as-identity-provider.md">xumm-as-identity-provider.md</a></td><td></td><td></td></tr></tbody></table>
+The Xumm SDK can be used to interact with Xumm users. An example can be a "sign request", where the user is asked to sign a transaction, identification (sign in) or a user interface presented in Xumm (xApp).
+
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th data-hidden></th><th data-hidden></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><a data-mention href="build-on-xumm/client-side-web-apps-web3.md">client-side-web-apps-web3.md</a></td><td></td><td></td><td><a href="build-on-xumm/client-side-web-apps-web3.md">client-side-web-apps-web3.md</a></td></tr><tr><td><a data-mention href="build-on-xumm/xapp-web-app-in-xumm.md">xapp-web-app-in-xumm.md</a></td><td></td><td></td><td><a href="build-on-xumm/xapp-web-app-in-xumm.md">xapp-web-app-in-xumm.md</a></td></tr><tr><td><a data-mention href="build-on-xumm/backend-service-s.md">backend-service-s.md</a></td><td></td><td></td><td><a href="build-on-xumm/backend-service-s.md">backend-service-s.md</a></td></tr><tr><td><a data-mention href="build-on-xumm/xumm-as-identity-provider.md">xumm-as-identity-provider.md</a></td><td></td><td></td><td><a href="build-on-xumm/xumm-as-identity-provider.md">xumm-as-identity-provider.md</a></td></tr></tbody></table>
 
 ## Packages
+
+The Xumm SDK offers a ready to use Javascript & Typescript SDK for all frontend and backend projects. With only minor differences depending on the environment you are using the SDK in, the SDK is the most convenient way to interact with Xumm users & the Xumm ecosystem.
+
+If you are not working in a [Javascript/Typescript](https://www.npmjs.com/package/xumm) environment and prefer to build your own backend implementation, you can use our [API (endpoint) documentation](https://xumm.readme.io/v1.0/reference/post-payload) or use one of our SDKs for [Python (PyPI)](https://pypi.org/project/xumm-sdk-py/), [PHP (Packagist)](https://packagist.org/packages/xrpl/xumm-sdk-php) or [C# (NuGet)](https://www.nuget.org/packages/XUMM.NET.SDK)
 
 | Language                    | Maintenance     | Package                                                                                                                        |
 | --------------------------- | --------------- | ------------------------------------------------------------------------------------------------------------------------------ |

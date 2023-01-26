@@ -14,21 +14,7 @@ Developers can build applications and allow Xumm users to interact with the apps
 
 ## Ways to interact
 
-{% content-ref url="build-on-xumm/client-side-web-apps-web3.md" %}
-[client-side-web-apps-web3.md](build-on-xumm/client-side-web-apps-web3.md)
-{% endcontent-ref %}
-
-{% content-ref url="build-on-xumm/xapp-web-app-in-xumm.md" %}
-[xapp-web-app-in-xumm.md](build-on-xumm/xapp-web-app-in-xumm.md)
-{% endcontent-ref %}
-
-{% content-ref url="build-on-xumm/backend-service-s.md" %}
-[backend-service-s.md](build-on-xumm/backend-service-s.md)
-{% endcontent-ref %}
-
-{% content-ref url="build-on-xumm/xumm-as-identity-provider.md" %}
-[xumm-as-identity-provider.md](build-on-xumm/xumm-as-identity-provider.md)
-{% endcontent-ref %}
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th data-hidden></th><th data-hidden></th></tr></thead><tbody><tr><td><a data-mention href="build-on-xumm/client-side-web-apps-web3.md">client-side-web-apps-web3.md</a></td><td></td><td></td></tr><tr><td><a data-mention href="build-on-xumm/xapp-web-app-in-xumm.md">xapp-web-app-in-xumm.md</a></td><td></td><td></td></tr><tr><td><a data-mention href="build-on-xumm/backend-service-s.md">backend-service-s.md</a></td><td></td><td></td></tr><tr><td><a data-mention href="build-on-xumm/xumm-as-identity-provider.md">xumm-as-identity-provider.md</a></td><td></td><td></td></tr></tbody></table>
 
 ## Packages
 

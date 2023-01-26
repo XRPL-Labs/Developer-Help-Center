@@ -12,6 +12,24 @@ The Xumm platform allows developers and app users to "meet up". While app users 
 
 Developers can build applications and allow Xumm users to interact with the apps.&#x20;
 
+## Ways to interact
+
+{% content-ref url="build-on-xumm/client-side-web-apps-web3.md" %}
+[client-side-web-apps-web3.md](build-on-xumm/client-side-web-apps-web3.md)
+{% endcontent-ref %}
+
+{% content-ref url="build-on-xumm/xapp-web-app-in-xumm.md" %}
+[xapp-web-app-in-xumm.md](build-on-xumm/xapp-web-app-in-xumm.md)
+{% endcontent-ref %}
+
+{% content-ref url="build-on-xumm/backend-service-s.md" %}
+[backend-service-s.md](build-on-xumm/backend-service-s.md)
+{% endcontent-ref %}
+
+{% content-ref url="build-on-xumm/xumm-as-identity-provider.md" %}
+[xumm-as-identity-provider.md](build-on-xumm/xumm-as-identity-provider.md)
+{% endcontent-ref %}
+
 ## Packages
 
 | Language                    | Maintenance     | Package                                                                                                                        |

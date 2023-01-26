@@ -2,7 +2,7 @@
 
 * [Build on Xumm](README.md)
   * [Client side web apps "Web3"](build-on-xumm/client-side-web-apps-web3.md)
-  * [xApp: your web app in Xumm](build-on-xumm/xapp-web-app-in-xumm.md)
+  * [xApps: your web app in Xumm](build-on-xumm/xapps-your-web-app-in-xumm.md)
   * [Backend integrations](build-on-xumm/backend-service-s.md)
   * [Xumm as identity provider](build-on-xumm/xumm-as-identity-provider.md)
 

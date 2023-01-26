@@ -16,6 +16,10 @@ While app users can simply use the Xumm app to manage their XRP ledger accounts,
 
 The Xumm SDK can be used to interact with Xumm users. An example can be a "sign request", where the user is asked to sign a transaction, identification (sign in) or a user interface presented in Xumm (xApp).
 
+{% hint style="info" %}
+What are you going to build? Read more about specific user & developer flows:
+{% endhint %}
+
 <table data-card-size="large" data-view="cards"><thead><tr><th></th><th data-hidden></th><th data-hidden></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><a data-mention href="build-on-xumm/client-side-web-apps-web3.md">client-side-web-apps-web3.md</a></td><td></td><td></td><td><a href="build-on-xumm/client-side-web-apps-web3.md">client-side-web-apps-web3.md</a></td></tr><tr><td><a data-mention href="build-on-xumm/xapp-web-app-in-xumm.md">xapp-web-app-in-xumm.md</a></td><td></td><td></td><td><a href="build-on-xumm/xapp-web-app-in-xumm.md">xapp-web-app-in-xumm.md</a></td></tr><tr><td><a data-mention href="build-on-xumm/backend-service-s.md">backend-service-s.md</a></td><td></td><td></td><td><a href="build-on-xumm/backend-service-s.md">backend-service-s.md</a></td></tr><tr><td><a data-mention href="build-on-xumm/xumm-as-identity-provider.md">xumm-as-identity-provider.md</a></td><td></td><td></td><td><a href="build-on-xumm/xumm-as-identity-provider.md">xumm-as-identity-provider.md</a></td></tr></tbody></table>
 
 ## Packages

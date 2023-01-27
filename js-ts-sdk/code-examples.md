@@ -22,9 +22,11 @@ try {
 ```
 {% endcode %}
 
+####
+
 #### See this code in action:
 
-{% embed url="https://codesandbox.io/p/sandbox/xumm-sdk-6gm4du" %}
+{% embed url="https://codesandbox.io/p/sandbox/xumm-sdk-6gm4du?file=/src/index.ts" %}
 {% endtab %}
 
 {% tab title="Javascript (Browser)" %}

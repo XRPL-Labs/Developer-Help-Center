@@ -7,7 +7,7 @@
 import { Xumm } from "xumm";
 
 try {
-  const Sdk = new Xumm(XUMM_SDK_APIKEY, XUMM_SDK_APISECRET);
+  const Sdk = new Xumm(process.env.XUMM_KEY, process.env.XUMM_SECRET);
   const pong = await Sdk?.ping();
   const payload = await Sdk.payload?.create({
     custom_meta: {

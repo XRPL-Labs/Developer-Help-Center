@@ -46,7 +46,7 @@
 * [Backend (SDK / API)](environments/backend-sdk-api.md)
 * [Native Apps](environments/native-apps.md)
 * [Identity (OAuth2, OpenID)](environments/identity-oauth2-openid/README.md)
-  * [Test Tools](environments/identity-oauth2-openid/test-tools.md)
+  * [Test Tools](environments/identity-oauth2-openid/tools.md)
 
 ## JS/TS SDK
 

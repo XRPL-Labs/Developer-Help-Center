@@ -28,10 +28,10 @@ Several implementations are available here:
 Xumm Web Sign In & Sign Request demo
 {% endembed %}
 
-A "VanillaJS" implementation sample:
-
 {% tabs %}
 {% tab title="Vanilla JS" %}
+A "VanillaJS" implementation sample as demonstrated [here](https://oauth2-pkce-demo.xumm.dev/jsmodule-payload):
+
 {% code title="index.html" lineNumbers="true" %}
 ```html
 <html lang="en">

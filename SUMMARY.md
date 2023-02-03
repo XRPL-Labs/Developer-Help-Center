@@ -8,8 +8,8 @@
 
 ## Concepts
 
-* [Terminology](concepts/terminology.md)
-* [Getting started](concepts/getting-started.md)
+* [Getting started](concepts/getting-started/README.md)
+  * [Terminology](concepts/getting-started/terminology.md)
 * [Payloads (sign requests)](concepts/payloads-sign-requests/README.md)
   * [Workflow](concepts/payloads-sign-requests/workflow.md)
   * [Lifecycle](concepts/payloads-sign-requests/lifecycle.md)

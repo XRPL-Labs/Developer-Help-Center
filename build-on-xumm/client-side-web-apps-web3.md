@@ -20,12 +20,6 @@ Using the Xumm SDK in your web project, you get:
 * Basic user information: XRP Ledger account address, icon (hashicon or even avatar), connected chain (mainnet, testnet, ..) & some basic information about the end user's environment (currency, language, ...)
 * An access token (JSON Web Token "JWT") valid for 24h, to actively send (push) Sign Requests (transactions for the end user to sign)
 
-## Technical details:
-
-{% content-ref url="../environments/browser-web3.md" %}
-[browser-web3.md](../environments/browser-web3.md)
-{% endcontent-ref %}
-
 ## Demo
 
 Several implementations are available here:
@@ -35,6 +29,12 @@ Xumm Web Sign In & Sign Request demo
 {% endembed %}
 
 {% tabs %}
+{% tab title="React" %}
+See this sample repository:
+
+{% embed url="https://github.com/XRPL-Labs/XummSDK-React-Demo" %}
+{% endtab %}
+
 {% tab title="Vanilla JS" %}
 A "VanillaJS" implementation sample as demonstrated [here](https://oauth2-pkce-demo.xumm.dev/jsmodule-payload):
 
@@ -105,10 +105,12 @@ A "VanillaJS" implementation sample as demonstrated [here](https://oauth2-pkce-d
 ```
 {% endcode %}
 {% endtab %}
-
-{% tab title="React" %}
-See this sample repository:
-
-{% embed url="https://github.com/XRPL-Labs/XummSDK-React-Demo" %}
-{% endtab %}
 {% endtabs %}
+
+## Implementation
+
+Read more about building web apps using the Xumm SDK:
+
+{% content-ref url="../environments/browser-web3.md" %}
+[browser-web3.md](../environments/browser-web3.md)
+{% endcontent-ref %}

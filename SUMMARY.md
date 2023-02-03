@@ -1,15 +1,11 @@
 # Table of contents
 
 * [Build on Xumm](README.md)
-  * [Client side web apps "Web3"](build-on-xumm/client-side-web-apps-web3.md)
-  * [xApps: your web app in Xumm](build-on-xumm/xapp-web-app-in-xumm.md)
-  * [Backend integrations](build-on-xumm/backend-service-s.md)
-  * [Xumm as identity provider](build-on-xumm/xumm-as-identity-provider.md)
 
 ## Concepts
 
-* [Getting started](concepts/getting-started/README.md)
-  * [Terminology](concepts/getting-started/terminology.md)
+* [Getting started](concepts/getting-started.md)
+  * [Terminology](concepts/terminology.md)
 * [Payloads (sign requests)](concepts/payloads-sign-requests/README.md)
   * [Workflow](concepts/payloads-sign-requests/workflow.md)
   * [Lifecycle](concepts/payloads-sign-requests/lifecycle.md)
@@ -38,6 +34,7 @@
 
 * [Browser ("Web3")](environments/browser-web3.md)
 * [xApps ("dApps")](environments/xapps-dapps/README.md)
+  * [Requirements](environments/xapps-dapps/requirements.md)
   * [Develop & Test](environments/xapps-dapps/develop-and-test.md)
   * [CORS](environments/xapps-dapps/cors.md)
   * [Xumm UI interaction](environments/xapps-dapps/xumm-ui-interaction.md)

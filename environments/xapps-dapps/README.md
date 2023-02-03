@@ -1,26 +1,42 @@
+---
+description: >-
+  Build your own web app to live in-app, inside Xumm for all Xumm users. Build
+  an xApp. Use your favourite tools & frameworks for the client side code (HTML,
+  CSS, JS, etc.
+---
+
 # xApps ("dApps")
 
-...
+xApps are web apps. They are offered to users as integrated apps, opened in Xumm for a great user experience. They add value (tools, apps, wizards, ...) for end users. They receive context information when opened, and can interact with some of the native Xumm features & users through Sign Requests.
 
-## xApp requirements
+## Permissions
 
-### All xApps:
+xApps have extra special permissions, allowing the xApp (web app) to interact with some of the native Xumm features:
 
-* The xApp should be self explanatory, or do a good job explaining to the users what the xApp offers in the very first screen the xApp shows
-* xApps can not be designed in a way where it it completely unclear to end users if they are using a third party developed xApp or a XRPL Labs maintained component
+* They receive context (user account selected in Xumm when opened, Xumm theme, input params, account type (eg. Tangem / ...)
+* They can trigger overlay Sign Requests and receive callback info
+* They can trigger the QR scanner and receive scanned QR data
 
-### Sandboxed xApps
+## Open xApps
 
-* Full access, no restrictions, but only for the developer and max. 10 testers (whitelisted by Device UUID in the Xumm Developer Console)
+xApps can be opened (triggered) in lots of ways:
 
-### Link (QR/Deeplink) only xApps
+* In the Xumm shortlist (we feature some apps, they get replaced by frequently used apps by the user)
+* From the xApp directory
+* By opening a deeplink (browser / from within another app)
+* By scanning a QR code
 
-* The xApp should look appealing
-* The xApp should respect different Xumm user screen sizes
-* The xApp should be well crafted: it should be clear what the xApp will do, and it should do what the xApp promised to do
-* The xApp should have a clear Support workflow & offer terms & conditions & a privacy statement
+### Advanced ways to open xApps
 
-### Public (listed) xApps:
+* By attaching an xApp memo to an XRPL TX (so the Event list will show there's an xApp attached to the TX)
+* Using push notifications
+* From the Event list, as an xApp session pushed to a Xumm user
 
-* The xApp should not be a "launchpad" to something that could be perfectly located at a website: if there is no actual Xumm wallet/XRPL interaction where the integration with Xumm adds value, it should be a website, not an xApp
-* Offer value (features people will appreciate/need) for a large part of the XRPL / Xumm user base
+## Examples
+
+* Trading interface (offloads signing to Xumm)
+* Admission ticket checking
+* NFT marketplaces / viewers
+* Issuing tokens, checking tokens
+* Tools: setting up accounts, crafting advanced transactions, escrows, etc.
+* Exchange deposit / withdraw integrations

@@ -8,3 +8,11 @@ description: >-
 # Backend integrations
 
 Backend integration intro here...
+
+## Implementation
+
+Read more about building backend integrations here:
+
+{% content-ref url="../environments/backend-sdk-api.md" %}
+[backend-sdk-api.md](../environments/backend-sdk-api.md)
+{% endcontent-ref %}

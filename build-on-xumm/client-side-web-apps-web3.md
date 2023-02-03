@@ -20,6 +20,12 @@ Using the Xumm SDK in your web project, you get:
 * Basic user information: XRP Ledger account address, icon (hashicon or even avatar), connected chain (mainnet, testnet, ..) & some basic information about the end user's environment (currency, language, ...)
 * An access token (JSON Web Token "JWT") valid for 24h, to actively send (push) Sign Requests (transactions for the end user to sign)
 
+## Technical details:
+
+{% content-ref url="../environments/browser-web3.md" %}
+[browser-web3.md](../environments/browser-web3.md)
+{% endcontent-ref %}
+
 ## Demo
 
 Several implementations are available here:

@@ -29,4 +29,9 @@ These numbers are not guarantees: they are averages and can be adjusted by our p
 
 ## Raising API limits
 
-If there are good reasons to assign elevated API limits, we're happy to have a discussion to hear about the reasons how your application consumes the Xumm API, and why your application needs higher limits. Please [contact Xumm Support](https://xumm.app/detect/xapp:xumm.support).\
+If there are good reasons to assign elevated API limits, we're happy to have a discussion to hear about the reasons how your application consumes the Xumm API, and why your application needs higher limits. Please [contact Xumm Support](https://xumm.app/detect/xapp:xumm.support).
+
+API limits will only be raised if:
+
+* Your app **does not use polling techniques**: to retrieve the status of a payload, use the websocket we provide for status updates (or the `createAndSubscribe` / `subscribe` method provided by the SDK: [createandsubscribe-....md](../../js-ts-sdk/sdk-ts-js/xumm.payload-.../createandsubscribe-....md "mention") / [createandsubscribe-....md](../../js-ts-sdk/sdk-ts-js/xumm.payload-.../createandsubscribe-....md "mention")). Backend applications can also use a webhook: [webhooks](../payloads-sign-requests/status-updates/webhooks/ "mention").
+* (If your app is an xApp) - Your app respects the xApp [requirements.md](../../environments/xapps-dapps/requirements.md "mention")\

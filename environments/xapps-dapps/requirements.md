@@ -12,6 +12,11 @@
 * Reliable user-bound storage is available not through cookies / localStorage, but through the Xumm `userstore`: [xumm.userstore-...](../../js-ts-sdk/sdk-ts-js/xumm.userstore-.../ "mention")
 * No polling should be used: to retrieve the status of a payload, use the websocket we provide for status updates (or the `createAndSubscribe` / `subscribe` method provided by the SDK: [createandsubscribe-....md](../../js-ts-sdk/sdk-ts-js/xumm.payload-.../createandsubscribe-....md "mention") / [createandsubscribe-....md](../../js-ts-sdk/sdk-ts-js/xumm.payload-.../createandsubscribe-....md "mention")). Backend applications can also use a webhook: [webhooks](../../concepts/payloads-sign-requests/status-updates/webhooks/ "mention").
 
+## Styling
+
+* xApps should either have their own colour scheme (dark/light mode independent) or respect the Xumm colour schemes: [style-guide.md](style-guide.md "mention"). The end user styling will be passed to the xApp using the `xAppStyle` query parameter.
+* The xApp `<html>` and `<body>` tag must have a `transparent` background color right upon page load, so the xApp doesn't 'flicker' white while loading, until styling has been applied (rendered by the browser).
+
 ## Sandboxed xApps
 
 * Full access, no restrictions, but only for the developer and max. 10 testers (whitelisted by Device UUID in the Xumm Developer Console)

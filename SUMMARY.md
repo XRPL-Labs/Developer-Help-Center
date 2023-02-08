@@ -41,7 +41,7 @@
   * [Style guide](environments/xapps-dapps/style-guide.md)
   * [Debugging](environments/xapps-dapps/debugging.md)
 * [Backend (SDK / API)](environments/backend-sdk-api/README.md)
-  * [User identification (payload)](environments/backend-sdk-api/user-identification-payload.md)
+  * [User identification payloads](environments/backend-sdk-api/user-identification-payloads.md)
 * [Native Apps](environments/native-apps.md)
 * [Identity (OAuth2, OpenID)](environments/identity-oauth2-openid/README.md)
   * [Test Tools](environments/identity-oauth2-openid/tools.md)

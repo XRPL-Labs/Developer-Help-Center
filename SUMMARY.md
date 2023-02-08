@@ -6,6 +6,7 @@
 
 * [Getting started](concepts/getting-started.md)
   * [Terminology](concepts/terminology.md)
+* [🔐 Authorization & Credentials](concepts/authorization-and-credentials.md)
 * [Payloads (sign requests)](concepts/payloads-sign-requests/README.md)
   * [Workflow](concepts/payloads-sign-requests/workflow.md)
   * [Lifecycle](concepts/payloads-sign-requests/lifecycle.md)
@@ -28,7 +29,6 @@
   * [Transaction types](concepts/limitations/transaction-types.md)
   * [Push permission](concepts/limitations/push-permission.md)
 * [Implementation checklist](concepts/implementation-checklist.md)
-* [🔐 Authorization](concepts/authorization.md)
 
 ## Environments
 
@@ -40,7 +40,8 @@
   * [Xumm UI interaction](environments/xapps-dapps/xumm-ui-interaction.md)
   * [Style guide](environments/xapps-dapps/style-guide.md)
   * [Debugging](environments/xapps-dapps/debugging.md)
-* [Backend (SDK / API)](environments/backend-sdk-api.md)
+* [Backend (SDK / API)](environments/backend-sdk-api/README.md)
+  * [User identification (payload)](environments/backend-sdk-api/user-identification-payload.md)
 * [Native Apps](environments/native-apps.md)
 * [Identity (OAuth2, OpenID)](environments/identity-oauth2-openid/README.md)
   * [Test Tools](environments/identity-oauth2-openid/tools.md)

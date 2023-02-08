@@ -60,11 +60,11 @@ All JWTs the obtained by a successful user sign in are valid for **one day (24h)
 
 ...
 
-| Endpoint type                         | Path (URL linked)                                                                                                                                |
-| ------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Authorization                         | [https://oauth2.xumm.app](https://oauth2.xumm.app/)[/auth](https://oauth2.xumm.app/auth)                                                         |
-| Token                                 | [https://oauth2.xumm.app](https://oauth2.xumm.app/)[/token](https://oauth2.xumm.app/token)                                                       |
-| Userinfo                              | [https://oauth2.xumm.app](https://oauth2.xumm.app/)[/userinfo](https://oauth2.xumm.app/userinfo)                                                 |
-| JWKS                                  | [https://oauth2.xumm.app](https://oauth2.xumm.app/)[/certs](https://oauth2.xumm.app/certs)                                                       |
-| OpenID Connect Metadata               | [https://oauth2.xumm.app](https://oauth2.xumm.app/)[/.well-known/openid-configuration](https://oauth2.xumm.app/.well-known/openid-configuration) |
-| _All other JWT compatible Xumm API's_ | See our API docs: [reference/oauth2-jwt](https://xumm.readme.io/reference/oauth2-jwt)                                                            |
+| Endpoint type                         | Path (URL linked)                                                                                            |
+| ------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
+| Authorization                         | oauth2.xumm.app/[auth](https://oauth2.xumm.app/auth)                                                         |
+| Token                                 | oauth2.xumm.app/[token](https://oauth2.xumm.app/token)                                                       |
+| Userinfo                              | oauth2.xumm.app/[userinfo](https://oauth2.xumm.app/userinfo)                                                 |
+| JWKS                                  | oauth2.xumm.app/[certs](https://oauth2.xumm.app/certs)                                                       |
+| OpenID Connect Metadata               | oauth2.xumm.app/[.well-known/openid-configuration](https://oauth2.xumm.app/.well-known/openid-configuration) |
+| _All other JWT compatible Xumm API's_ | See our API docs: [reference/oauth2-jwt](https://xumm.readme.io/reference/oauth2-jwt)                        |

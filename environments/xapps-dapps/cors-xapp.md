@@ -1,8 +1,4 @@
----
-description: ...
----
-
-# CORS
+# CORS (xApp)
 
 ...
 

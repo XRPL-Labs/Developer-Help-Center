@@ -32,11 +32,12 @@
 
 ## Environments
 
-* [Browser ("Web3")](environments/browser-web3.md)
+* [Browser ("Web3")](environments/browser-web3/README.md)
+  * [CORS (Browser)](environments/browser-web3/cors-browser.md)
 * [xApps ("dApps")](environments/xapps-dapps/README.md)
   * [Requirements](environments/xapps-dapps/requirements.md)
   * [Develop & Test](environments/xapps-dapps/develop-and-test.md)
-  * [CORS](environments/xapps-dapps/cors.md)
+  * [CORS (xApp)](environments/xapps-dapps/cors-xapp.md)
   * [Xumm UI interaction](environments/xapps-dapps/xumm-ui-interaction.md)
   * [Style guide](environments/xapps-dapps/style-guide.md)
   * [Debugging](environments/xapps-dapps/debugging.md)

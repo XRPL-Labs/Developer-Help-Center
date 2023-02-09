@@ -25,17 +25,9 @@ Using the Xumm SDK in your web project, you get:
 Several implementations are available here:
 
 {% embed url="https://oauth2-pkce-demo.xumm.dev/" %}
-Xumm Web Sign In & Sign Request demo
-{% endembed %}
 
 {% tabs %}
-{% tab title="React" %}
-See this sample repository:
-
-{% embed url="https://github.com/XRPL-Labs/XummSDK-React-Demo" %}
-{% endtab %}
-
-{% tab title="Vanilla JS" %}
+{% tab title="Sample: Vanilla JS" %}
 A "VanillaJS" implementation sample as demonstrated [here](https://oauth2-pkce-demo.xumm.dev/jsmodule-payload):
 
 {% code title="index.html" lineNumbers="true" %}
@@ -104,5 +96,11 @@ A "VanillaJS" implementation sample as demonstrated [here](https://oauth2-pkce-d
 </html>
 ```
 {% endcode %}
+{% endtab %}
+
+{% tab title="Sample: React" %}
+See this sample repository:
+
+{% embed url="https://github.com/XRPL-Labs/XummSDK-React-Demo" %}
 {% endtab %}
 {% endtabs %}

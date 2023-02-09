@@ -20,17 +20,21 @@ Using the Xumm SDK in your web project, you get:
 * Basic user information: XRP Ledger account address, icon (hashicon or even avatar), connected chain (mainnet, testnet, ..) & some basic information about the end user's environment (currency, language, ...)
 * An access token (JSON Web Token "JWT") valid for 24h, to actively send (push) Sign Requests (transactions for the end user to sign)
 
-## Demo
+## Demo& samples
 
-Several implementations are available here:
+Several implementations are available with samples & source code.
 
 {% embed url="https://oauth2-pkce-demo.xumm.dev/" %}
 
-{% tabs %}
-{% tab title="Sample: Vanilla JS" %}
-A "VanillaJS" implementation sample as demonstrated [here](https://oauth2-pkce-demo.xumm.dev/jsmodule-payload):
+### React native sample
 
-{% code title="index.html" lineNumbers="true" %}
+{% embed url="https://github.com/XRPL-Labs/XummSDK-React-Demo" %}
+
+### Vanilla JS (HTML, JS) sample
+
+As demonstrated [here](https://oauth2-pkce-demo.xumm.dev/jsmodule-payload).
+
+{% code lineNumbers="true" %}
 ```html
 <html lang="en">
   <head>
@@ -96,11 +100,3 @@ A "VanillaJS" implementation sample as demonstrated [here](https://oauth2-pkce-d
 </html>
 ```
 {% endcode %}
-{% endtab %}
-
-{% tab title="Sample: React" %}
-See this sample repository:
-
-{% embed url="https://github.com/XRPL-Labs/XummSDK-React-Demo" %}
-{% endtab %}
-{% endtabs %}

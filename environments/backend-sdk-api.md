@@ -14,7 +14,7 @@ Backend integration intro here...
 {% tabs %}
 {% tab title="Typescript" %}
 ```typescript
-import { Xumm } from "xumm";
+const { Xumm } = require("xumm");
 
 const xumm = new Xumm("some-api-key", "some-secret-key");
 

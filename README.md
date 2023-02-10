@@ -10,6 +10,10 @@ description: >-
 
 While app users can simply use the Xumm app to manage their XRP ledger accounts, balances and transactions, the true power of Xumm can be experienced through the Xumm SDK, using our platform made available for developers.
 
+{% hint style="success" %}
+Want to dive straight in? You're one click away from the [code-examples.md](js-ts-sdk/code-examples.md "mention")
+{% endhint %}
+
 ## Ways to interact
 
 The Xumm SDK can be used to interact with Xumm users. An example can be a "sign request", where the user is asked to sign a transaction, identification (sign in) or a user interface presented in Xumm (xApp).

@@ -17,7 +17,7 @@ xApps have extra special permissions, allowing the xApp (web app) to interact wi
 * They can trigger overlay Sign Requests and receive callback info
 * They can trigger the QR scanner and receive scanned QR data
 
-## Open xApps
+## Opening an xApps
 
 xApps can be opened (triggered) in lots of ways:
 
@@ -32,7 +32,7 @@ xApps can be opened (triggered) in lots of ways:
 * Using push notifications
 * From the Event list, as an xApp session pushed to a Xumm user
 
-## Examples
+## xApp example use cases
 
 * Trading interface (offloads signing to Xumm)
 * Admission ticket checking
@@ -40,3 +40,24 @@ xApps can be opened (triggered) in lots of ways:
 * Issuing tokens, checking tokens
 * Tools: setting up accounts, crafting advanced transactions, escrows, etc.
 * Exchange deposit / withdraw integrations
+
+## Sample code
+
+```html
+<html lang="en">
+  <body>
+    <h1 id="accountaddress">...</h1>
+        
+    <script src="https://xumm.app/assets/cdn/xumm.min.js"></script>
+    <script>
+      var xumm = new Xumm('your-api-key')
+      
+      xumm.on("ready", () => console.log("Ready (e.g. hide loading state of xApp)"))
+      
+      xumm.user.account.then(account => {
+        document.getElementById('accountaddress').innerText = account
+      })
+    </script>
+  </body>
+</html>
+```

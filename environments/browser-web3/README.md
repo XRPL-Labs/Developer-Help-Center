@@ -33,6 +33,8 @@ Using the Xumm SDK in your web project, you get:
     <script>
       var xumm = new Xumm('your-api-key')
       
+      xumm.on("ready", () => console.log("Ready (e.g. hide loading state of page)"))
+      
       xumm.user.account.then(account => {
         document.getElementById('accountaddress').innerText = account
         document.getElementById('signinbutton').style.display = 'none'

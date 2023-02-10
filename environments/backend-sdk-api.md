@@ -21,7 +21,7 @@ const xumm = new Xumm("some-api-key", "some-secret-key");
 (async () => {
   console.log("pong", await xumm.ping());
 
-  const transaction = { TransactionType: "SignIn" };
+  const transaction = { TransactionType: 'SignIn' };
   console.log("payload", await xumm.payload?.create(transaction)) 
 })()
 ```

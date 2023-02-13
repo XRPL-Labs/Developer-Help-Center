@@ -49,7 +49,7 @@
 
 ## JS/TS SDK
 
-* [Xumm SDK Intro](js-ts-sdk/xumm-sdk-intro.md)
+* [Xumm SDK (Intro)](js-ts-sdk/xumm-sdk-intro.md)
 * [Code examples](js-ts-sdk/code-examples.md)
 * [User stories](js-ts-sdk/user-stories.md)
 * [📦 SDK (TS/JS)](js-ts-sdk/sdk-ts-js/README.md)

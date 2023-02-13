@@ -1,10 +1,3 @@
----
-description: >-
-  CORS restricts access to resources on different domains to ensure privacy and
-  security, allowing website owners to control access. As xApps run inside Xumm,
-  allowing CORS is required for xApps.
----
-
 # CORS (xApp)
 
 ...

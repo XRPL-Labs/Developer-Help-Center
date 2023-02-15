@@ -20,83 +20,32 @@ Using the Xumm SDK in your web project, you get:
 * Basic user information: XRP Ledger account address, icon (hashicon or even avatar), connected chain (mainnet, testnet, ..) & some basic information about the end user's environment (currency, language, ...)
 * An access token (JSON Web Token "JWT") valid for 24h, to actively send (push) Sign Requests (transactions for the end user to sign)
 
-## Demo& samples
-
-Several implementations are available with samples & source code.
-
-{% embed url="https://oauth2-pkce-demo.xumm.dev/" %}
-
-### React native sample
-
-{% embed url="https://github.com/XRPL-Labs/XummSDK-React-Demo" %}
-
-### Vanilla JS (HTML, JS) sample
-
-As demonstrated [here](https://oauth2-pkce-demo.xumm.dev/jsmodule-payload).
+## Sample code
 
 {% code lineNumbers="true" %}
 ```html
 <html lang="en">
-  <head>
-    <title>Xumm Web3 demo</title>
-  </head>
   <body>
-    <h2 class="mt-3 h4 alert alert-primary text-center shadow mb-5" id="sub">... (please sign in)</h2>
-
-    <button class="btn mb-3 btn-primary" id="auth">Auth</button>
-    <button class="btn mb-3 btn-info" style="display: none;" id="signrequest">Sample Payment (Sign request)</button>
-    <button class="btn mb-3 btn-danger" style="display: none;" id="logout">Logout</button>
-
-    <script type="module">
-      import 'https://xumm.app/assets/cdn/xumm-oauth2-pkce.min.js?v=2.7.1'
-
-      const xumm = new XummPkce('some-apikey', {
-        implicit: true, // Implicit: allows to e.g. move from social browser to stock browser
-        redirectUrl: document.location.href + '?custom_state=test'
-      })
+    <h1 id="accountaddress">...</h1>
+    <button id="signinbutton" onclick="xumm.authorize()"></button>
+        
+    <script src="https://xumm.app/assets/cdn/xumm.min.js"></script>
+    <script>
+      var xumm = new Xumm('your-api-key')
       
-      xumm.on("error", error => console.log("error", error))
-      xumm.on("success", () => signedIn())
-      xumm.on("retrieved", () => signedIn())
-
-      const signedIn = async () => {
-        const state = await xumm.state()
-        if (state?.me?.sub) {
-          document.getElementById('logout').style.display = 'block'
-          document.getElementById('signrequest').style.display = 'block'
-          document.getElementById('auth').style.display = 'none'
-          document.getElementById('sub').innerText = state.me.sub // account address
-        }
-      }
-
-      document.getElementById('auth').onclick = () => xumm.authorize().catch(e => console.log('e', e))
-
-      document.getElementById('signrequest').onclick = async () => {
-        const {sdk} = await xumm.state()
-        const payload = await sdk.payload.create({
-          TransactionType: 'Payment',
-          Destination: 'rwietsevLFg8XSmG3bEZzFein1g8RBqWDZ',
-          Amount: String(1234567), // 1.234567 XRP (drops, millionth XRP)
-        })
-
-        if (payload.pushed) {
-          alert('Payload `' + payload.uuid + '` pushed to phone.')
-        } else {
-          alert('Payload not pushed, opening payload...')
-          window.open(payload.next.always)
-        }
-      }
-
-      document.getElementById('logout').onclick = () => {
-        xumm.logout()
-
-        document.getElementById('logout').style.display = 'none'
-        document.getElementById('signrequest').style.display = 'none'
-        document.getElementById('auth').style.display = 'block'
-        document.getElementById('sub').innerText = '... (please sign in)'
-      }
+      xumm.on("ready", () => console.log("Ready (e.g. hide loading state of page)"))
+      
+      xumm.user.account.then(account => {
+        document.getElementById('accountaddress').innerText = account
+        document.getElementById('signinbutton').style.display = 'none'
+      })
     </script>
   </body>
 </html>
 ```
 {% endcode %}
+
+### More links
+
+For the SDK documentation (objects, methods), see the SDK section: [sdk-ts-js](../../js-ts-sdk/sdk-ts-js/ "mention"). For a simple demo of the Xumm SDK in a React Native environment, check this sample repository: [https://github.com/XRPL-Labs/XummSDK-React-Demo](https://github.com/XRPL-Labs/XummSDK-React-Demo/)
+

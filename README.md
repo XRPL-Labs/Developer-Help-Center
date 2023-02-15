@@ -11,7 +11,7 @@ description: >-
 While app users can simply use the Xumm app to manage their XRP ledger accounts, balances and transactions, the true power of Xumm can be experienced through the Xumm SDK, using our platform made available for developers.
 
 {% hint style="success" %}
-Want to dive straight in? You're one click away from the [code-examples.md](js-ts-sdk/code-examples.md "mention")
+Want to dive straight in? You're one click away from the [misc-todo.md](js-ts-sdk/examples-user-stories/misc-todo.md "mention")
 {% endhint %}
 
 ## Ways to interact

@@ -50,8 +50,9 @@
 ## JS/TS SDK
 
 * [Xumm SDK (Intro)](js-ts-sdk/xumm-sdk-intro.md)
-* [Code examples](js-ts-sdk/code-examples.md)
-* [User stories](js-ts-sdk/user-stories.md)
+* [Examples / User stories](js-ts-sdk/examples-user-stories/README.md)
+  * [Sign Request (payload)](js-ts-sdk/examples-user-stories/sign-request-payload.md)
+  * [Misc (todo)](js-ts-sdk/examples-user-stories/misc-todo.md)
 * [📦 SDK (TS/JS)](js-ts-sdk/sdk-ts-js/README.md)
   * [Xumm.ping()](js-ts-sdk/sdk-ts-js/xumm.ping.md)
   * [Xumm.on(event, fn)](js-ts-sdk/sdk-ts-js/xumm.on-event-fn.md)

@@ -35,9 +35,13 @@ Using the Xumm SDK in your web project, you get:
       
       xumm.on("ready", () => console.log("Ready (e.g. hide loading state of page)"))
       
-      xumm.user.account.then(account => {
-        document.getElementById('accountaddress').innerText = account
-        document.getElementById('signinbutton').style.display = 'none'
+      // We rely on promises in the `success` event: fired again if a user
+      // logs out and logs back in again (resets all promises)
+      xumm.on("success", async () => {
+        xumm.user.account.then(account => {
+          document.getElementById('accountaddress').innerText = account
+          document.getElementById('signinbutton').style.display = 'none'
+        })
       })
     </script>
   </body>

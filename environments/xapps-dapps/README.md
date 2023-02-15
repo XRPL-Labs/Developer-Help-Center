@@ -53,7 +53,8 @@ xApps can be opened (triggered) in lots of ways:
       var xumm = new Xumm('your-api-key')
       
       xumm.on("ready", () => console.log("Ready (e.g. hide loading state of xApp)"))
-      
+  
+      // Account can't change (like Web3 logout/login) so we can rely on the promise
       xumm.user.account.then(account => {
         document.getElementById('accountaddress').innerText = account
       })

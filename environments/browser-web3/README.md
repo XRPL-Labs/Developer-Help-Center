@@ -43,6 +43,10 @@ Using the Xumm SDK in your web project, you get:
           document.getElementById('accountaddress').innerText = account
         })
       })
+
+      xumm.on("logout", async () => {
+        document.getElementById('accountaddress').innerText = '...'
+      })
     </script>
   </body>
 </html>

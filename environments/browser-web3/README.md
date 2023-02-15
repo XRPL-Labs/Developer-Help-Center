@@ -27,7 +27,8 @@ Using the Xumm SDK in your web project, you get:
 <html lang="en">
   <body>
     <h1 id="accountaddress">...</h1>
-    <button id="signinbutton" onclick="xumm.authorize()"></button>
+    <button id="signinbutton" onclick="xumm.authorize()">Login</button>
+    <button id="logoutbutton" onclick="xumm.logout()">Logout</button>
         
     <script src="https://xumm.app/assets/cdn/xumm.min.js"></script>
     <script>
@@ -40,7 +41,6 @@ Using the Xumm SDK in your web project, you get:
       xumm.on("success", async () => {
         xumm.user.account.then(account => {
           document.getElementById('accountaddress').innerText = account
-          document.getElementById('signinbutton').style.display = 'none'
         })
       })
     </script>

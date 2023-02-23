@@ -51,7 +51,10 @@
 
 * [Xumm SDK (Intro)](js-ts-sdk/xumm-sdk-intro.md)
 * [Examples / User stories](js-ts-sdk/examples-user-stories/README.md)
-  * [Sign Request (payload)](js-ts-sdk/examples-user-stories/sign-request-payload.md)
+  * [Sign Requests (payloads)](js-ts-sdk/examples-user-stories/sign-requests-payloads/README.md)
+    * [Browser](js-ts-sdk/examples-user-stories/sign-requests-payloads/browser.md)
+    * [xApp](js-ts-sdk/examples-user-stories/sign-requests-payloads/xapp.md)
+    * [Backend](js-ts-sdk/examples-user-stories/sign-requests-payloads/backend.md)
   * [Misc (todo)](js-ts-sdk/examples-user-stories/misc-todo.md)
 * [📦 SDK (TS/JS)](js-ts-sdk/sdk-ts-js/README.md)
   * [Xumm.ping()](js-ts-sdk/sdk-ts-js/xumm.ping.md)

@@ -13,9 +13,9 @@ The Xumm Javascript/TypeScript SDK can be found on **npm**:
 
 {% embed url="https://www.npmjs.com/package/xumm" %}
 
-### Code sample
+### Code samples
 
-...
+See [examples-user-stories](examples-user-stories/ "mention")
 
 ### Warning (legacy packages)
 

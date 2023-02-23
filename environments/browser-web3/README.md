@@ -55,5 +55,5 @@ Using the Xumm SDK in your web project, you get:
 
 ### More links
 
-For the SDK documentation (objects, methods), see the SDK section: [sdk-ts-js](../../js-ts-sdk/sdk-ts-js/ "mention"). For a simple demo of the Xumm SDK in a React Native environment, check this sample repository: [https://github.com/XRPL-Labs/XummSDK-React-Demo](https://github.com/XRPL-Labs/XummSDK-React-Demo/)
+For the SDK documentation (objects, methods), see the SDK section: [sdk-syntax](../../js-ts-sdk/sdk-syntax/ "mention"). For a simple demo of the Xumm SDK in a React Native environment, check this sample repository: [https://github.com/XRPL-Labs/XummSDK-React-Demo](https://github.com/XRPL-Labs/XummSDK-React-Demo/)
 

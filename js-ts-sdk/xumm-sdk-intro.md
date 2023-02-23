@@ -7,7 +7,7 @@ description: >-
 
 # Xumm SDK (Intro)
 
-## Package
+## JavaScript/TypeScript npm Package
 
 The Xumm Javascript/TypeScript SDK can be found on **npm**:
 

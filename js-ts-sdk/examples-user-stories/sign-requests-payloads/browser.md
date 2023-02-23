@@ -64,7 +64,7 @@ On the desktop, a user may or may not receive a push notification. The user can 
 
 1. Checks if the `pushed` property of the created payload
    1. If `false` the user is displayed the payload QR code to scan with their phone.
-      1. Using the [createandsubscribe-....md](../../sdk-ts-js/xumm.payload-.../createandsubscribe-....md "mention") method the application receives real time updates about end user interaction. The application can update to reflect the interaction the user has with the Sign Request on their phone (`"opened": true`).
+      1. Using the [createandsubscribe-....md](../../sdk-syntax/xumm.payload-.../createandsubscribe-....md "mention") method the application receives real time updates about end user interaction. The application can update to reflect the interaction the user has with the Sign Request on their phone (`"opened": true`).
    2. If `true` the user is displayed a message that the Sign Request has been delivered to their phone. A button with a label like **"I did not receive the Push Notification**" is displayed, which takes users to the QR flow.
 
 {% tabs %}

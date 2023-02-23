@@ -56,11 +56,11 @@ Certain actions in Xumm will trigger an event so your xApp can retrieve data or 
 ## Trigger actions
 
 {% hint style="info" %}
-For all Xumm UI (interface) actions / worfklows you can trigger, see the SDK documentation: [xumm.xapp-...](../../js-ts-sdk/sdk-ts-js/xumm.xapp-.../ "mention")
+For all Xumm UI (interface) actions / worfklows you can trigger, see the SDK documentation: [xumm.xapp-...](../../js-ts-sdk/sdk-syntax/xumm.xapp-.../ "mention")
 {% endhint %}
 
 ## Receive events
 
 {% hint style="info" %}
-For all events emitted in your xApp (like the async follow up data of an xApp UI action triggered), see the xApp event handler: [on-event-fn.md](../../js-ts-sdk/sdk-ts-js/xumm.xapp-.../on-event-fn.md "mention")
+For all events emitted in your xApp (like the async follow up data of an xApp UI action triggered), see the xApp event handler: [on-event-fn.md](../../js-ts-sdk/sdk-syntax/xumm.xapp-.../on-event-fn.md "mention")
 {% endhint %}

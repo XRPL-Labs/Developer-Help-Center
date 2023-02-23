@@ -7,7 +7,7 @@ description: >-
 
 # xApp
 
-xApps are natively aware of the end user context, so a Sign Request payload can easily be served with the `xumm.xapp.openSignRequest` method: [opensignrequest-....md](../../sdk-ts-js/xumm.xapp-.../opensignrequest-....md "mention")
+xApps are natively aware of the end user context, so a Sign Request payload can easily be served with the `xumm.xapp.openSignRequest` method: [opensignrequest-....md](../../sdk-syntax/xumm.xapp-.../opensignrequest-....md "mention")
 
 {% tabs %}
 {% tab title="JavaScript (VanillaJS)" %}
@@ -55,7 +55,7 @@ xumm.xapp?.openSignRequest(payload)
 {% endtab %}
 {% endtabs %}
 
-When a payload (Sign Request) has been created and opened in your xApp, you probably want to be informed if the payload has been signed or rejected, then to check the payload results and act on the results. You can do so by subscribing to the `payload` event, see: [xumm.on-event-fn.md](../../sdk-ts-js/xumm.on-event-fn.md "mention")
+When a payload (Sign Request) has been created and opened in your xApp, you probably want to be informed if the payload has been signed or rejected, then to check the payload results and act on the results. You can do so by subscribing to the `payload` event, see: [xumm.on-event-fn.md](../../sdk-syntax/xumm.on-event-fn.md "mention")
 
 {% tabs %}
 {% tab title="Promise" %}

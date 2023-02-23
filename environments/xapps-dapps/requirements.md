@@ -9,8 +9,8 @@
 ## Technical&#x20;
 
 * All links to external sites / window opens must be replaced by a `openBrowser` call on the Xumm SDK: [xumm-ui-interaction.md](xumm-ui-interaction.md "mention") so that users won't reach another website through navigating in the xApp
-* Reliable user-bound storage is available not through cookies / localStorage, but through the Xumm `userstore`: [xumm.userstore-...](../../js-ts-sdk/sdk-ts-js/xumm.userstore-.../ "mention")
-* No polling should be used: to retrieve the status of a payload, use the websocket we provide for status updates (or the `createAndSubscribe` / `subscribe` method provided by the SDK: [createandsubscribe-....md](../../js-ts-sdk/sdk-ts-js/xumm.payload-.../createandsubscribe-....md "mention") / [createandsubscribe-....md](../../js-ts-sdk/sdk-ts-js/xumm.payload-.../createandsubscribe-....md "mention")). Backend applications can also use a webhook: [webhooks](../../concepts/payloads-sign-requests/status-updates/webhooks/ "mention").
+* Reliable user-bound storage is available not through cookies / localStorage, but through the Xumm `userstore`: [xumm.userstore-...](../../js-ts-sdk/sdk-syntax/xumm.userstore-.../ "mention")
+* No polling should be used: to retrieve the status of a payload, use the websocket we provide for status updates (or the `createAndSubscribe` / `subscribe` method provided by the SDK: [createandsubscribe-....md](../../js-ts-sdk/sdk-syntax/xumm.payload-.../createandsubscribe-....md "mention") / [createandsubscribe-....md](../../js-ts-sdk/sdk-syntax/xumm.payload-.../createandsubscribe-....md "mention")). Backend applications can also use a webhook: [webhooks](../../concepts/payloads-sign-requests/status-updates/webhooks/ "mention").
 
 ## Styling
 

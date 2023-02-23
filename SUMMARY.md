@@ -83,6 +83,7 @@
     * [scanQr()](js-ts-sdk/sdk-syntax/xumm.xapp-.../scanqr.md)
     * [tx({ ... })](js-ts-sdk/sdk-syntax/xumm.xapp-.../tx-....md)
     * [close({ ... })](js-ts-sdk/sdk-syntax/xumm.xapp-.../close-....md)
+    * [share({ ... })](js-ts-sdk/sdk-syntax/xumm.xapp-.../share-....md)
     * [navigate({ ... })](js-ts-sdk/sdk-syntax/xumm.xapp-.../navigate-....md)
     * [customCommand({ ... })](js-ts-sdk/sdk-syntax/xumm.xapp-.../customcommand-....md)
     * [on(event, fn)](js-ts-sdk/sdk-syntax/xumm.xapp-.../on-event-fn.md)
@@ -100,4 +101,5 @@
     * [event( ... )](js-ts-sdk/sdk-syntax/xumm.push-.../event-....md)
     * [notification( ... )](js-ts-sdk/sdk-syntax/xumm.push-.../notification-....md)
   * [Xumm.runtime { ... }](js-ts-sdk/sdk-syntax/xumm.runtime-....md)
+  * [Xumm.authorize()](js-ts-sdk/sdk-syntax/xumm.authorize.md)
   * [Xumm.logout()](js-ts-sdk/sdk-syntax/xumm.logout.md)

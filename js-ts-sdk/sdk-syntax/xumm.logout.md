@@ -1,3 +1,3 @@
 # Xumm.logout()
 
-Only Web, as OTT (xApp) persists & backend doesn't have a user session.
+Logs out a user in the Browser flow: [browser-web3](../../environments/browser-web3/ "mention")

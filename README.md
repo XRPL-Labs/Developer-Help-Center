@@ -30,10 +30,9 @@ The Xumm SDK offers a ready to use Javascript & Typescript SDK for all frontend 
 
 If you are not working in a [Javascript/Typescript](https://www.npmjs.com/package/xumm) environment and prefer to build your own backend implementation, you can use our [API (endpoint) documentation](https://xumm.readme.io/v1.0/reference/post-payload) or use one of our SDKs for [Python (PyPI)](https://pypi.org/project/xumm-sdk-py/), [PHP (Packagist)](https://packagist.org/packages/xrpl/xumm-sdk-php) or [C# (NuGet)](https://www.nuget.org/packages/XUMM.NET.SDK)
 
-| Language                    | Maintenance     | Package                                                                                                                        |
-| --------------------------- | --------------- | ------------------------------------------------------------------------------------------------------------------------------ |
-| **Typescript / Javascript** | **XRPL Labs** ⭐ | [![npm version](https://badge.fury.io/js/xumm.svg)](https://www.npmjs.com/xumm)                                        |
-| Python                      | Community       | [![python version](https://badge.fury.io/py/xumm-sdk-py.svg)](https://pypi.org/project/xumm-sdk-py/)                           |
-| C# (.NET)                   | Community       | [![NuGet version](https://badge.fury.io/nu/XUMM.NET.SDK.svg)](https://badge.fury.io/nu/XUMM.NET.SDK)                           |
-| PHP                         | Community       | [![Packagist PHP version](https://badgen.net/badge/PHP%20Package/8.1/green)](https://packagist.org/packages/xrpl/xumm-sdk-php) |
-
+| Language                    | Maintenance     | Package                                                                                                                          |
+| --------------------------- | --------------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| **Typescript / Javascript** | **XRPL Labs** ⭐ | [![npm version](https://badge.fury.io/js/xumm.svg)](https://www.npmjs.com/xumm) / [CDN](https://xumm.app/assets/cdn/xumm.min.js) |
+| Python                      | Community       | [![python version](https://badge.fury.io/py/xumm-sdk-py.svg)](https://pypi.org/project/xumm-sdk-py/)                             |
+| C# (.NET)                   | Community       | [![NuGet version](https://badge.fury.io/nu/XUMM.NET.SDK.svg)](https://badge.fury.io/nu/XUMM.NET.SDK)                             |
+| PHP                         | Community       | [![Packagist PHP version](https://badgen.net/badge/PHP%20Package/8.1/green)](https://packagist.org/packages/xrpl/xumm-sdk-php)   |

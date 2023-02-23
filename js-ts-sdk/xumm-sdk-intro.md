@@ -7,11 +7,21 @@ description: >-
 
 # Xumm SDK (Intro)
 
-## JavaScript/TypeScript npm Package
+## JavaScript/TypeScript
+
+### NPM
 
 The Xumm Javascript/TypeScript SDK can be found on **npm**:
 
 {% embed url="https://www.npmjs.com/package/xumm" %}
+
+### CDN
+
+The latest version of the Xumm SDK is always available at:
+
+```
+https://xumm.app/assets/cdn/xumm.min.js
+```
 
 ### Code samples
 
@@ -28,9 +38,3 @@ Previously there were three different packages:
 
 **All three packages above have been replaced by the** [**`xumm`**](https://www.npmjs.com/package/xumm) **package, which allows for easier (unified) interaction with the three aforementioned topics.**
 {% endhint %}
-
-### Source code
-
-The Xumm Javascript/TypeScript SDK is open source:
-
-{% embed url="https://github.com/XRPL-Labs/Xumm-Universal-SDK" %}

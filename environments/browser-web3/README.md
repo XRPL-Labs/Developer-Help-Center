@@ -22,6 +22,10 @@ Using the Xumm SDK in your web project, you get:
 
 ## Sample code
 
+{% hint style="info" %}
+Please note the **`xumm.authorize()`** and **`xumm.logout()`** methods:
+{% endhint %}
+
 {% code lineNumbers="true" %}
 ```html
 <html lang="en">

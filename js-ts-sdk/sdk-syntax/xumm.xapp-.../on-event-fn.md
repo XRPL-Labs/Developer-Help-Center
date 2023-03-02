@@ -4,11 +4,11 @@ description: >-
   callback containing data requested by calling one of the xApp UI actions.
 ---
 
-# on(event, fn)
+# on(xAppEvent, fn)
 
 To subscribe to one of the events emitted to xApps, use the `on(...)` method on the SDK's `xapp` object to register an event handler (callback function).
 
-## payload
+## Payload
 
 The `payload` event is emitted when a payload has been resolved (signed / declined)
 
@@ -43,7 +43,7 @@ xumm.xapp.on('payload', data => {
 {% endtab %}
 {% endtabs %}
 
-## qr
+## QR
 
 The `qr` event is emitted when the QR scanner dialog has been opened, and is now closed. If a QR was scanned the data is returned.
 
@@ -87,7 +87,7 @@ xumm.xapp.on('qr', data => {
 {% endtab %}
 {% endtabs %}
 
-## destination
+## Destination
 
 The `destination` event is emitted when the destination picker dialog has been openend, and is now closed. If a destinationw as selected, the data is returned.
 

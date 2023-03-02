@@ -2,14 +2,14 @@
 
 ## Information
 
-* ott
-* jwt
-* openid
-* bearer
+* `ott`
+* `jwt`
+* `openid`
+* `bearer`
 
 ## Promises (state)
 
-* ready
-* retrieving
-* success
-* retrieved
+* `ready`
+* `retrieving`
+* `success`
+* `retrieved`

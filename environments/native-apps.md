@@ -15,9 +15,24 @@ If your application registers a Deep Link URL as well, and you pass that URL to 
 
 ## Integration
 
-### Sign In only
+### Sign In & obtain JWT
 
 If you just want to authorize/identify a user with his/her r-address, the **OAuth2 "Identify" flow** suffices: you send off the user to a Sign In URL with a return URL and the user will return to your application with a **JWT (JSON Web Token)** you can use to call the Xumm API to get the user identification information (r-address). For more information, see [identity-oauth2-openid](identity-oauth2-openid/ "mention").
+
+If you are building a native app and you want to easily allow users to sign in with Xumm, you can use the OAuth2 Implicit flow like this:
+
+1. Register an app at [https://apps.xumm.dev](https://apps.xumm.dev) and get the (public) API Key
+2. Register a deeplink or deeplink protocol for your app, e.g. `yourapp://signin`
+3. Add your deeplink / protocol URL to the Xumm Developer Console as a valid Return URL.
+4. Redirect your user to:\
+   `https://oauth2.xumm.app/auth?client_id={apikey}`\
+   &#x20; `&redirect_uri=yourapp://signin` \
+   &#x20; `&response_type=code`\
+   &#x20; `&response_mode=query`\
+   &#x20; `&scope=somescope`\
+   &#x20; `&state=somestate`\
+   &#x20; `&nonce=somenonce`
+5. Now, when the user signed in, Xumm redirects the user to your app, to the `redirect_uri`, with URL Query Parameters appended containing a JWT you can now use (you can construct the `Xumm()` JS/TS class with this JWT.
 
 ### Sign In & Sign Requests
 

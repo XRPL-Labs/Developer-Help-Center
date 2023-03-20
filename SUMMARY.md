@@ -56,6 +56,7 @@
     * [Browser](js-ts-sdk/examples-user-stories/sign-requests-payloads/browser.md)
     * [xApp](js-ts-sdk/examples-user-stories/sign-requests-payloads/xapp.md)
     * [Backend](js-ts-sdk/examples-user-stories/sign-requests-payloads/backend.md)
+  * [Verify OAuth2 signature](js-ts-sdk/examples-user-stories/verify-oauth2-signature.md)
   * [Misc (todo)](js-ts-sdk/examples-user-stories/misc-todo.md)
 * [📦 SDK (syntax)](js-ts-sdk/sdk-syntax/README.md)
   * [Xumm.ping()](js-ts-sdk/sdk-syntax/xumm.ping.md)

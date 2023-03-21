@@ -90,6 +90,7 @@ xumm.payload.createAndSubscribe({
     return resolved // Return payload promise for the next `then`
   })
   .then(payload => console.log('Payload resolved', payload))
+  // This is where you can do `xumm.payload.get(...)` to fetch details
 ```
 {% endtab %}
 

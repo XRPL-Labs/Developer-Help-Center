@@ -104,7 +104,3 @@
   * [Xumm.runtime { ... }](js-ts-sdk/sdk-syntax/xumm.runtime-....md)
   * [Xumm.authorize()](js-ts-sdk/sdk-syntax/xumm.authorize.md)
   * [Xumm.logout()](js-ts-sdk/sdk-syntax/xumm.logout.md)
-
-## Group 1
-
-* [TOKEN ISSUERS](group-1/token-issuers.md)

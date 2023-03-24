@@ -7,7 +7,7 @@ description: >-
 # Your own backend (Auth)
 
 {% hint style="info" %}
-If you want to identify a Xumm xApp user with your own backend, you can rely on the xApp JWT's issued by Xumm: the **secret used to sign the JWT is your own Xumm application secret**.
+If you want to identify a Xumm xApp user with your own backend, you can rely on the xApp JWT's issued by Xumm: the **secret used to sign the JWT is your own Xumm application secret** (HMAC, HS256).
 {% endhint %}
 
 This makes it really convenient to obtain three things at once, making calls to your own backend with an `Autorization: Bearer {The Xumm JWT}` header:

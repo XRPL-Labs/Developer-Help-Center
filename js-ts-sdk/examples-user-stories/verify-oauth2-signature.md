@@ -25,7 +25,6 @@ xumm.on("success", async () => {
 })
 ```
 
-Now you can verify the signature using the `xrpl-verify-signature` package, or using any native method capable of verifying XRP Ledger sginagures:
+Now you can verify the signature using the `xrpl-verify-signature` package, or using any native method capable of verifying XRP Ledger signatures:
 
-\
-[https://www.npmjs.com/package/verify-xrpl-signature](https://www.npmjs.com/package/verify-xrpl-signature)
+{% embed url="https://www.npmjs.com/package/verify-xrpl-signature" %}

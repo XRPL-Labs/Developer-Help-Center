@@ -7,10 +7,6 @@ description: >-
 
 # CORS (xApp)
 
-...
-
-
-
 ## Troubleshooting&#x20;
 
 If an xApp integration doesn't allow for running commands, and the console shows messages like "Couldn't connect to host", problems are a result of the same cause: CORS issues.

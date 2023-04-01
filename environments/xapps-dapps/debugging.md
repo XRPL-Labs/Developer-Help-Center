@@ -2,7 +2,7 @@
 description: 'Debugging your xApp is tricky: it runs on your phone. How to access the logs?'
 ---
 
-# Debugging
+# Development & Debugging
 
 Some things that may help debugging your xApp:
 
@@ -13,6 +13,10 @@ Using [https://remotejs.com](https://remotejs.com/) you can drop one line (scrip
 ## Replay OTT's
 
 If you open your own xApp using the device you added in the Xumm Developer Console as debug device (using the Device Identifier), the OTT (one time token) can be replayed when visiting from the same IP address.
+
+{% hint style="info" %}
+Note: Replaying OTT's only works if you force your browser to identify with the user agent **xumm/xapp**. In the Chrome Developer Console, on the **Network** tab, click the "Radio antenna signal" icon and uncheck "Use browser default" next to **User agent.**
+{% endhint %}
 
 * Make sure your device (Xumm - Settings - Advanced) is whitelisted as Debug Identifier in the Xumm Developer Console
 * Make sure your phone and computer are visiting from the same public IP address (e.g. by having them both on the same WiFi and internet connection

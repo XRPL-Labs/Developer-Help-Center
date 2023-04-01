@@ -42,7 +42,7 @@
   * [Xumm UI interaction](environments/xapps-dapps/xumm-ui-interaction.md)
   * [Your own backend (Auth)](environments/xapps-dapps/your-own-backend-auth.md)
   * [Style guide](environments/xapps-dapps/style-guide.md)
-  * [Debugging](environments/xapps-dapps/debugging.md)
+  * [Development & Debugging](environments/xapps-dapps/debugging.md)
 * [Backend (SDK / API)](environments/backend-sdk-api.md)
   * [User identification payloads](environments/backend-sdk-api/user-identification-payloads.md)
 * [Native Apps](environments/native-apps.md)

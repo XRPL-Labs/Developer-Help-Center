@@ -33,9 +33,9 @@
 
 ## Environments
 
-* [Browser ("Web3")](environments/browser-web3/README.md)
+* [🌎 Browser ("Web3")](environments/browser-web3/README.md)
   * [CORS (Browser)](environments/browser-web3/cors-browser.md)
-* [xApps ("dApps")](environments/xapps-dapps/README.md)
+* [📱 xApps ("dApps")](environments/xapps-dapps/README.md)
   * [Requirements](environments/xapps-dapps/requirements.md)
   * [Develop & Test](environments/xapps-dapps/develop-and-test.md)
   * [CORS (xApp)](environments/xapps-dapps/cors-xapp.md)
@@ -43,10 +43,10 @@
   * [Your own backend (Auth)](environments/xapps-dapps/your-own-backend-auth.md)
   * [Style guide](environments/xapps-dapps/style-guide.md)
   * [Development & Debugging](environments/xapps-dapps/debugging.md)
-* [Backend (SDK / API)](environments/backend-sdk-api.md)
+* [📂 Backend (SDK / API)](environments/backend-sdk-api.md)
   * [User identification payloads](environments/backend-sdk-api/user-identification-payloads.md)
-* [Native Apps](environments/native-apps.md)
-* [Identity (OAuth2, OpenID)](environments/identity-oauth2-openid/README.md)
+* [🎛 Native Apps](environments/native-apps.md)
+* [🙇 Identity (OAuth2, OpenID)](environments/identity-oauth2-openid/README.md)
   * [Test Tools](environments/identity-oauth2-openid/tools.md)
 
 ## JS/TS SDK

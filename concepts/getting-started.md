@@ -18,7 +18,7 @@ This is where the Xumm platform comes in. An XRP Ledger _transaction template_ c
 
 ## Interaction
 
-The most convenient way to interact with the Xumm platform is through the JavaScript/TypeScript SDK: [broken-reference](broken-reference/ "mention"). There are also some other SDKs available for **Backend** use in other languages:
+The most convenient way to interact with the Xumm platform is through the JavaScript/TypeScript SDK: [Broken link](broken-reference "mention"). There are also some other SDKs available for **Backend** use in other languages:
 
 | Language                    | Maintenance     | Package                                                                                                                          |
 | --------------------------- | --------------- | -------------------------------------------------------------------------------------------------------------------------------- |
@@ -28,6 +28,8 @@ The most convenient way to interact with the Xumm platform is through the JavaSc
 | PHP                         | Community       | [![Packagist PHP version](https://badgen.net/badge/PHP%20Package/8.1/green)](https://packagist.org/packages/xrpl/xumm-sdk-php)   |
 
 The Xumm platform allows for easy integration in your application & workflow. Make sure to check the documentation for your environment:
+
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td></td><td></td><td></td><td><a href="../environments/browser-web3/">browser-web3</a></td></tr><tr><td></td><td></td><td></td><td><a href="../environments/xapps-dapps/">xapps-dapps</a></td></tr><tr><td></td><td></td><td></td><td></td></tr></tbody></table>
 
 {% content-ref url="../environments/browser-web3/" %}
 [browser-web3](../environments/browser-web3/)

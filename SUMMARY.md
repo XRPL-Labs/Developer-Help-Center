@@ -80,6 +80,7 @@
     * [cancel( ... )](js-ts-sdk/sdk-syntax/xumm.payload-.../cancel-....md)
     * [subscribe( ... )](js-ts-sdk/sdk-syntax/xumm.payload-.../subscribe-....md)
   * [Xumm.xapp { ... }](js-ts-sdk/sdk-syntax/xumm.xapp-.../README.md)
+    * [ready()](js-ts-sdk/sdk-syntax/xumm.xapp-.../ready.md)
     * [openSignRequest({ ... })](js-ts-sdk/sdk-syntax/xumm.xapp-.../opensignrequest-....md)
     * [selectDestination()](js-ts-sdk/sdk-syntax/xumm.xapp-.../selectdestination.md)
     * [scanQr()](js-ts-sdk/sdk-syntax/xumm.xapp-.../scanqr.md)

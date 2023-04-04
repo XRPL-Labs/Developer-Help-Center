@@ -19,6 +19,10 @@ These actions can be sent form your xApp (frontend Javascript) context, and will
 * Open the Account Destination Picker
 * etc.
 
+{% hint style="info" %}
+To prevent showing a double loader (first the Xumm xApp loader, then your xApp's loader while hydrating / booting) you can enable the "**Xumm Loader Screen**" option in the Xumm Developer Console (xApp tab). The xApp will then show the Xumm native loader, until your application calls the `ready()` method on the Xumm SDK.
+{% endhint %}
+
 **Your xApp can also receive events (data) from Xumm:**
 
 Certain actions in Xumm will trigger an event so your xApp can retrieve data or act based on the event (details below):

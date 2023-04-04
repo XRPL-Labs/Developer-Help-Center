@@ -17,7 +17,7 @@ xApps have extra special permissions, allowing the xApp (web app) to interact wi
 * They can trigger overlay Sign Requests and receive callback info
 * They can trigger the QR scanner and receive scanned QR data
 
-## Opening an xApps
+## Opening xApps
 
 xApps can be opened (triggered) in lots of ways:
 
@@ -25,6 +25,10 @@ xApps can be opened (triggered) in lots of ways:
 * From the xApp directory
 * By opening a deeplink (browser / from within another app)
 * By scanning a QR code
+
+{% hint style="info" %}
+To prevent showing a double loader (first the Xumm xApp loader, then your xApp's loader while hydrating / booting) you can enable the "**Xumm Loader Screen**" option in the Xumm Developer Console (xApp tab). The xApp will then show the Xumm native loader, until your application calls the `ready()` method on the Xumm SDK.
+{% endhint %}
 
 ### Advanced ways to open xApps
 

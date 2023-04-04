@@ -29,20 +29,4 @@ The most convenient way to interact with the Xumm platform is through the JavaSc
 
 The Xumm platform allows for easy integration in your application & workflow. Make sure to check the documentation for your environment:
 
-<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td></td><td></td><td></td><td><a href="../environments/browser-web3/">browser-web3</a></td></tr><tr><td></td><td></td><td></td><td><a href="../environments/xapps-dapps/">xapps-dapps</a></td></tr><tr><td></td><td></td><td></td><td></td></tr></tbody></table>
-
-{% content-ref url="../environments/browser-web3/" %}
-[browser-web3](../environments/browser-web3/)
-{% endcontent-ref %}
-
-{% content-ref url="../environments/xapps-dapps/" %}
-[xapps-dapps](../environments/xapps-dapps/)
-{% endcontent-ref %}
-
-{% content-ref url="../environments/backend-sdk-api.md" %}
-[backend-sdk-api.md](../environments/backend-sdk-api.md)
-{% endcontent-ref %}
-
-{% content-ref url="../environments/native-apps.md" %}
-[native-apps.md](../environments/native-apps.md)
-{% endcontent-ref %}
+<table data-card-size="large" data-column-title-hidden data-view="cards"><thead><tr><th data-card-target data-type="content-ref"></th><th data-hidden></th><th data-hidden></th><th data-hidden></th></tr></thead><tbody><tr><td><a href="../environments/browser-web3/">browser-web3</a></td><td></td><td></td><td></td></tr><tr><td><a href="../environments/xapps-dapps/">xapps-dapps</a></td><td></td><td></td><td></td></tr><tr><td><a href="../environments/backend-sdk-api.md">backend-sdk-api.md</a></td><td></td><td></td><td></td></tr><tr><td><a href="../environments/native-apps.md">native-apps.md</a></td><td></td><td></td><td></td></tr></tbody></table>

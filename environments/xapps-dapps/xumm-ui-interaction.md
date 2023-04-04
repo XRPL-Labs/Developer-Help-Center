@@ -20,7 +20,7 @@ These actions can be sent form your xApp (frontend Javascript) context, and will
 * etc.
 
 {% hint style="info" %}
-To prevent showing a double loader (first the Xumm xApp loader, then your xApp's loader while hydrating / booting) you can enable the "**Xumm Loader Screen**" option in the Xumm Developer Console (xApp tab). The xApp will then show the Xumm native loader, until your application calls the `ready()` method on the Xumm SDK.
+To prevent showing a double loader (first the Xumm xApp loader, then your xApp's loader while hydrating / booting) you can enable the "**Xumm Loader Screen**" option in the Xumm Developer Console (xApp tab). See [ready.md](../../js-ts-sdk/sdk-syntax/xumm.xapp-.../ready.md "mention")
 {% endhint %}
 
 **Your xApp can also receive events (data) from Xumm:**

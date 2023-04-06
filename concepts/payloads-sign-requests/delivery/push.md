@@ -7,7 +7,11 @@ description: >-
 
 # Push
 
+{% hint style="info" %}
 [xapps-dapps](../../../environments/xapps-dapps/ "mention") and [browser-web3](../../../environments/browser-web3/ "mention") are signed in with user context, so payloads created in those environments will automatically be pushed to the signed in user.
+
+This means if you're using the xApp / Browser (Web3) flow, you do not have to specify the **user\_token** as the payloads crated from the xApp / Browser (Web3) flow are automatically pushed to the signed in user.
+{% endhint %}
 
 If you are building a backend integration, the flow is slightly different.
 

@@ -6,7 +6,7 @@ description: >-
 
 # Build on Xumm
 
-**The Xumm platform allows developers and app users to "meet up".**
+**The Xumm platform allows developers and app users to interact.**
 
 While app users can simply use the Xumm app to manage their XRP ledger accounts, balances and transactions, the true power of Xumm can be experienced through the Xumm SDK, using our platform made available for developers.
 

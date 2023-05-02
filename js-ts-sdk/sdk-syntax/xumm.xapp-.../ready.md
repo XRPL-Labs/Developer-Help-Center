@@ -11,7 +11,7 @@ description: >-
 This feature is available in Xumm 2.5.0 and higher.
 {% endhint %}
 
-To prevent showing a double loader (first the Xumm xApp loader, then your xApp's loader while hydrating / booting) you can enable the "**Xumm Loader Screen**" option in the Xumm Developer Console (xApp tab). The xApp will then show the Xumm native loader, until your application calls the `ready()` method on the Xumm SDK.
+To prevent showing a double loader (first the Xumm xApp loader, then your xApp's loader while hydrating / booting) you have to [enable the "**Xumm loader till SDK ready() is called**" option in the Xumm Developer Console (xApp tab)](https://apps.xumm.dev/app-xapp). The xApp will then show the Xumm native loader, until your application calls the `ready()` method on the Xumm SDK.
 
 ### Syntax
 

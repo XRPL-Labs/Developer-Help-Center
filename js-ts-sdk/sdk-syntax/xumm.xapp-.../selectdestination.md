@@ -14,6 +14,10 @@ If you want to request the destination address only, skipping the "Destination T
 { ignoreDestinationTag: boolean }
 ```
 
+{% hint style="info" %}
+The `ignoreDestinationTag` feature is available in Xumm 2.5.0 and higher.
+{% endhint %}
+
 ## Syntax
 
 ```javascript

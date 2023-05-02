@@ -82,7 +82,7 @@
   * [Xumm.xapp { ... }](js-ts-sdk/sdk-syntax/xumm.xapp-.../README.md)
     * [ready()](js-ts-sdk/sdk-syntax/xumm.xapp-.../ready.md)
     * [openSignRequest({ ... })](js-ts-sdk/sdk-syntax/xumm.xapp-.../opensignrequest-....md)
-    * [selectDestination()](js-ts-sdk/sdk-syntax/xumm.xapp-.../selectdestination.md)
+    * [selectDestination({ ... })](js-ts-sdk/sdk-syntax/xumm.xapp-.../selectdestination.md)
     * [scanQr()](js-ts-sdk/sdk-syntax/xumm.xapp-.../scanqr.md)
     * [tx({ ... })](js-ts-sdk/sdk-syntax/xumm.xapp-.../tx-....md)
     * [close({ ... })](js-ts-sdk/sdk-syntax/xumm.xapp-.../close-....md)

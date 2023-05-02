@@ -4,12 +4,20 @@ description: >-
   by r-address, slug or PayString
 ---
 
-# selectDestination()
+# selectDestination({ ... })
+
+## Parameters
+
+If you want to request the destination address only, skipping the "Destination Tag" required check & input, you can provide the `ignoreDestinationTag` param. If not provided (or `false`) Xumm will chech if the destination account requires a Destination Tag and ask the user to input one.
+
+```javascript
+{ ignoreDestinationTag: boolean }
+```
 
 ## Syntax
 
 ```javascript
-xumm.xapp.selectDestination()
+xumm.xapp.selectDestination({ ignoreDestinationTag: false })
 xumm.xapp.on('destination', data => {
     console.log('Destination', data.destination)
 })

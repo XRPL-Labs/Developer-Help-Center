@@ -17,3 +17,7 @@ This makes it really convenient to obtain three things at once, making calls to 
 3. You can make calls from the user context to the Xumm backend with this JWT (for as long as it is valid: 24h).
 
 Every time when a user opens your xApp, a new JWT is issued, valid for 24h.
+
+{% hint style="success" %}
+Please note: if you are using the OAuth2 flow instead of an xApp to obtain your JWT, you can verify the OAuth2 issued RS256 JWT using the certificate info publised as per OpenID specifications: [https://oauth2.xumm.app/certs](https://oauth2.xumm.app/certs)&#x20;
+{% endhint %}

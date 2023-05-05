@@ -25,6 +25,7 @@
     * [API Call (polling)](concepts/payloads-sign-requests/status-updates/api-call-polling.md)
   * [🚨 Verify transactions](concepts/payloads-sign-requests/verify-transactions.md)
   * [Networks](concepts/payloads-sign-requests/networks.md)
+* [Special Transaction Types](concepts/special-transaction-types.md)
 * [Limitations](concepts/limitations/README.md)
   * [Rate limits](concepts/limitations/rate-limits.md)
   * [Transaction types](concepts/limitations/transaction-types.md)

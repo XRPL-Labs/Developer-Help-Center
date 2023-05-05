@@ -23,6 +23,10 @@ The latest version of the Xumm SDK is always available at:
 https://xumm.app/assets/cdn/xumm.min.js
 ```
 
+{% hint style="info" %}
+Please note the CDN URL is heavily cached (edge and headers, so client side). If you are expecting a new version of the SDK to load, consider cleaning local cache and adding a random (e.g. your build hash) as a URL Query param to the URL to force URL uniqueness.
+{% endhint %}
+
 ### Code samples
 
 See [examples-user-stories](examples-user-stories/ "mention")

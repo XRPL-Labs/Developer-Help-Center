@@ -60,5 +60,5 @@ The first retry will take place after 10 seconds. The next after 60 seconds. The
 
 If you want to make sure the WebHook your application received came from the Xumm platform, there are two things you can do:
 
-1. Send a **GET** for the payload to get the full payload using the SDK/API to the Xumm platform
+1. Send a **GET** for the payload to get the full payload using the SDK/API to the Xumm platform: [get-....md](../../../../js-ts-sdk/sdk-syntax/xumm.payload-.../get-....md "mention")
 2. Verify the signature we send in a HTTP Header when we deliver the WebHook: [signature-verification.md](signature-verification.md "mention")\

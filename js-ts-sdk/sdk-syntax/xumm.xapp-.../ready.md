@@ -27,4 +27,4 @@ xumm.xapp.ready()
    With Xumm in Developer Mode, the Xumm loading screen shows a 'Proceed to xApp' button at the Xumm loader screen, below the spinner. This way you can dismiss the Xumm loader and view the underlying problem.
 2. **The xApp takes very long to load or doesn't load at all: users are confronted with a long wait.**\
    If the `ready()` method in the Xumm SDK isn't called within \~6 seconds a label + button is made visible: "xApp is slow to respond..." `[Contact Developer]`.\
-   This button then opens the Support URL for the xApp as entered in the Developer Console. For&#x20;
+   This button then opens the Support URL for the xApp as entered in the Developer Console. &#x20;

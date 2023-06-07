@@ -1,5 +1,18 @@
 # Requirements
 
+xApps are WebApps, embedded in Xumm for a great user experience. They add value (tooling, wizards) for end users, using Sign Requests and their Web UI to help users perform tasks on the XRPL and beyond.
+
+* Anyone can create sandbox xApp
+* Only you can use your own sandbox xApp from a specific Xumm installation you can whitelist after activating xApp features.
+* The fact that you got a sandbox xApp is not to be presented anywhere as an endorsement (e.g. in communication like on social media, etc.))
+* To build an xApp, you need to have experience with Frontend Web Development as xApps are WebApps (loaded in Xumm)
+* xApps need to add value to a significant share of the Xumm user base
+* xApps need to be self explanatory to have clear instructions for end users
+* xApps need to be designed in a way where users can not make dangerous mistakes: users need to be protected
+* xApps developers can not be anonymous (accountability)
+* Promotion of speculation, pushing users towards buying tokens is not allowed (see: user protection)
+* Activating xApp features and building a sandbox xApp does NOT guarantee your xApp will be going live in the future. To take your xApp live, it will be audited by XRPL Labs. The rules above apply, security & usability will be tested. If you want to have more certainty in advance, please [reach out](mailto:support@xrpl-labs.com).
+
 ## All xApps
 
 * The xApp should be self explanatory, or do a good job explaining to the users what the xApp offers in the very first screen the xApp shows

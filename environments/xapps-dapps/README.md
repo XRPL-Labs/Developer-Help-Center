@@ -5,9 +5,13 @@ description: >-
   CSS, JS, etc.
 ---
 
-# xApps ("dApps")
+# 📱 xApps ("dApps")
 
 xApps are web apps. They are offered to users as integrated apps, opened in Xumm for a great user experience. They add value (tools, apps, wizards, ...) for end users. They receive context information when opened, and can interact with some of the native Xumm features & users through Sign Requests.
+
+{% hint style="info" %}
+Please read carefully: [requirements.md](requirements.md "mention")
+{% endhint %}
 
 ## Permissions
 

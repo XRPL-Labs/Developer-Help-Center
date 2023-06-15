@@ -10,7 +10,7 @@ This method only applies to the xApp & Web3 (browser) flow. Backend flows (using
 
 The following properties are part of the `user` object. Every property is a `Promise` that is resolved when the user is signed in.
 
-* `account` - r-address)
+* `account` - r-address
 * `picture` - Profile picture or Hashicon URL
 * `name` - Account name (if present) - e.g. Xumm Pro account name
 * `domain` - Domain name (if present) for account

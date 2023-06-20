@@ -40,7 +40,7 @@ xumm.payload.create({
 
 {% tab title="Async" %}
 ```typescript
-const paload = await xumm.payload.create({
+const payload = await xumm.payload.create({
   TransactionType: 'Payment',
   Destination: 'rfHn6cB5mmqZ6fHZ4fdemCDSxqLTijgMwo',
   Amount: String(1)

@@ -8,7 +8,7 @@ description: >-
 
 The difference between XRP Ledger Transaction JSON and a Xumm Payload is that the XRP Ledger JSON needs to be complete and signed locally, while a Xumm Payload can contain an incomplete transaction.
 
-The incomplete transaction, referred to as a Transaction Template, can be delivered to Xumm users so an end user can view the Payload.
+The incomplete transaction, referred to as a Transaction Template, can be delivered to Xumm users allowing end users to view the Payload in the form of a "Sign Request": a transaction to sign and submit, or reject.
 
 Xumm will then add the missing fields like the signer account, network Fee, Account Sequence, based on the context the user provides.
 

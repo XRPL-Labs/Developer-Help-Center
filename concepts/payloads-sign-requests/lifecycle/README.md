@@ -1,3 +1,9 @@
+---
+description: >-
+  Understanding Xumm's transaction lifecycle is crucial for integrating it into
+  your application.
+---
+
 # Lifecycle
 
 ## 1. Transaction Template

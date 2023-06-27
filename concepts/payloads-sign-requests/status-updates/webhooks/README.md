@@ -1,14 +1,16 @@
 ---
 description: >-
-  We can send you a WebHook when a Payload (Sign Request) has been resolved
-  (rejected or signed)
+  Webhooks are HTTP callbacks that allow you to receive notifications when a
+  Payload (Sign Request) has been resolved (rejected or signed).
 ---
 
 # Webhooks
 
-If you entered a valid Webhook URL in your Application Settings at the Xumm[ Xumm Developer Console](https://apps.xumm.dev/) your application will receive a HTTP POST containing a JSON body with limited details for the given payload.
+Webhooks are essential for asynchronous communication and can trigger specific actions in your application based on events in Xumm.
 
-Please note a WebHook will **not** contain the entire payload: to get the entire payload you should **GET** the payload using an SDK/API call.
+If you entered a valid Webhook URL in your Application Settings at the Xumm[ Xumm Developer Console](https://apps.xumm.dev/), your application would receive an HTTP POST containing a JSON body with limited details for the given payload.
+
+Please note a WebHook will **not** contain the entire payload: to get the entire payload, you should **GET** the payload using an SDK/API call.
 
 #### A sample webhook looks like this:
 

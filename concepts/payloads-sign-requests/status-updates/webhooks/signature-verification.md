@@ -1,12 +1,15 @@
 ---
 description: >-
-  If you want to make sure a WebHook received by your platform has been sent by
-  the Xumm platform, verify the signature the platform sends in a HTTP header.
+  Signature verification is crucial for ensuring the integrity and authenticity
+  of the data received. It involves verifying that the data was sent by Xumm and
+  has not been tampered with.
 ---
 
 # Signature verification
 
-Every webhook call contains a signature to verify the authenticity. It sends a HMAC using your application secret as key. Sample verification in NodeJS:
+If you want to make sure a WebHook received by your platform has been sent by the Xumm platform, verify the signature the platform sends in an HTTP header.
+
+Every WebHook call contains a signature to verify the authenticity. It sends an HMAC using your application secret as a key. Sample verification in NodeJS:
 
 ```javascript
 import crypto from 'crypto'

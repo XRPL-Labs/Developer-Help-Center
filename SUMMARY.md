@@ -12,7 +12,7 @@
   * [Lifecycle](concepts/payloads-sign-requests/lifecycle/README.md)
     * [Sample POS lifecycle](concepts/payloads-sign-requests/lifecycle/sample-pos-lifecycle.md)
   * [Delivery](concepts/payloads-sign-requests/delivery/README.md)
-    * [Deeplink](concepts/payloads-sign-requests/delivery/deeplink.md)
+    * [Deep Link](concepts/payloads-sign-requests/delivery/deeplink.md)
     * [QR Scan](concepts/payloads-sign-requests/delivery/qr-scan.md)
     * [Push](concepts/payloads-sign-requests/delivery/push.md)
     * [xApp](concepts/payloads-sign-requests/delivery/xapp.md)

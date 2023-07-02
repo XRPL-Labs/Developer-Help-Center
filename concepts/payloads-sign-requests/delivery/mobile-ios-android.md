@@ -6,3 +6,4 @@ description: >-
 
 # Mobile (iOS/Android)
 
+* This is an alias only, see [deeplink.md](deeplink.md "mention")

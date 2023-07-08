@@ -19,7 +19,7 @@
     * [Mobile (iOS/Android)](concepts/payloads-sign-requests/delivery/mobile-ios-android.md)
     * [Desktop browser](concepts/payloads-sign-requests/delivery/desktop-browser.md)
   * [Status updates](concepts/payloads-sign-requests/status-updates/README.md)
-    * [WebSocket](concepts/payloads-sign-requests/status-updates/websocket.md)
+    * [Websocket](concepts/payloads-sign-requests/status-updates/websocket.md)
     * [Webhooks](concepts/payloads-sign-requests/status-updates/webhooks/README.md)
       * [Signature verification](concepts/payloads-sign-requests/status-updates/webhooks/signature-verification.md)
     * [API Call (polling)](concepts/payloads-sign-requests/status-updates/api-call-polling.md)

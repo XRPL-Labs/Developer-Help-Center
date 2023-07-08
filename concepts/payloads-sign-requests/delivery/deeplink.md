@@ -6,6 +6,8 @@ description: >-
 
 # Deep Linking
 
+Deep Links are a well known flow to allow users to automatically launch and open another app in a specific state. Xumm allows for a Deep Link workflow, where your application (browser based or native) can trigger Xumm to open and immediately show your sign request.
+
 ### Benefits of Deep Linking:
 
 * **When to Use**: Opt for deep linking when you want to minimize user steps and create a fluid transition between your app and Xumm.

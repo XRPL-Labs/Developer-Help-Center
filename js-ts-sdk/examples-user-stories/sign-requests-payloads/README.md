@@ -7,3 +7,8 @@ description: >-
 
 # Sign Requests (payloads)
 
+[browser.md](browser.md "mention")
+
+[xapp.md](xapp.md "mention")
+
+[backend.md](backend.md "mention")

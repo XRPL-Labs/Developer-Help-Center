@@ -1,16 +1,14 @@
 ---
-description: >-
-  For Xumm, WebSocket is invaluable for receiving real-time updates regarding
-  payload
+description: Websockets provide real-time payload updates
 ---
 
-# WebSocket
+# Websocket
 
-All payloads get assigned a payload-specific WebSocket URL. You can connect to this socket from the client side of your application to receive live status updates (if the user opens the payload on their device and the user resolves the payload).
+All payloads get assigned a payload-specific Websocket URL. You can connect to this socket from the client side of your application to receive live status updates (if the user opens the payload on their device and the user resolves the payload).
 
 The pushed information contains minimal information; it is meant to trigger your application to fetch more information from your application's backend.
 
-If a payload doesn't exist, the WebSocket connection will receive an `{"message":"..."}` update, and the socket will be closed. If the payload has expired, the connection will receive a `{"expired":true"}` message.
+If a payload doesn't exist, the Websocket connection will receive an `{"message":"..."}` update, and the socket will be closed. If the payload has expired, the connection will receive a `{"expired":true"}` message.
 
 If the payload exists and did not expire, the connection will start with a message containing the remaining seconds until expiration: `{"expires_in_seconds":51}`. This message will be sent every 15 seconds for keepalive reasons. If the connection is still active when the payload expires, a `{"expired":true"}` message will be sent. The connection will be kept alive, leaving it up to the client to disconnect.
 
@@ -20,15 +18,15 @@ The expiration should be handled as an **OPEN/SCAN BEFORE**, not a **RESOLVE BEF
 
 When the user resolves after the expiration moment, the webhook and callback will handle the response as they would when the payload wasn't expired.
 
-## WebSocket Events
+## Websocket Events
 
-**WebSocket events to expect**
+**Websocket events to expect**
 
 <table><thead><tr><th width="348">Event</th><th>JSON</th></tr></thead><tbody><tr><td>Connected</td><td><code>{"message":"Welcome &#x3C;payload-uuid>"}</code></td></tr><tr><td>After connecting and every 15 seconds while the connection is alive, a negative value means the transaction expired that many seconds ago</td><td><code>{"expires_in_seconds":54}</code></td></tr><tr><td>When the user received the payload, eg. push notification, deeplink or QR scan</td><td><code>{"opened":true}</code></td></tr><tr><td>When the Xumm SDK/API fetched the payload details</td><td><code>{"devapp_fetched":true}</code></td></tr><tr><td>When the payload is resolved</td><td><code>{"payload_uuidv4": "...", [...] }</code></td></tr><tr><td>When the payload is expired</td><td><code>{"expired":true}</code></td></tr></tbody></table>
 
 ## Sample
 
-The WebSocket payload resolve message looks like:
+The Websocket payload resolve message looks like:
 
 ```json
 {
@@ -51,5 +49,5 @@ The WebSocket payload resolve message looks like:
 ```
 
 {% hint style="info" %}
-The payload information the WebSocket connection delivers **does not contain** the entire payload object. It should be considered a trigger to **GET** the entire payload using an SDK/API call: [get-....md](../../../js-ts-sdk/sdk-syntax/xumm.payload-.../get-....md "mention")
+The payload information the Websocket connection delivers **does not contain** the entire payload object. It should be considered a trigger to **GET** the entire payload using an SDK/API call: [get-....md](../../../js-ts-sdk/sdk-syntax/xumm.payload-.../get-....md "mention")
 {% endhint %}

@@ -10,7 +10,7 @@ Webhooks are essential for asynchronous communication and can trigger specific a
 
 If you entered a valid Webhook URL in your Application Settings at the Xumm[ Xumm Developer Console](https://apps.xumm.dev/), your application would receive an HTTP POST containing a JSON body with limited details for the given payload.
 
-Please note a WebHook will **not** contain the entire payload: to get the entire payload, you should **GET** the payload using an SDK/API call.
+Please note a Webhook will **not** contain the entire payload: to get the entire payload, you should **GET** the payload using an SDK/API call.
 
 #### A sample webhook looks like this:
 
@@ -60,7 +60,7 @@ The first retry will take place after 10 seconds. The next after 60 seconds. The
 
 ## Safety
 
-If you want to make sure the WebHook your application received came from the Xumm platform, there are two things you can do:
+If you want to make sure the Webhook your application received came from the Xumm platform, there are two things you can do:
 
 1. Send a **GET** for the payload to get the full payload using the SDK/API to the Xumm platform: [get-....md](../../../../js-ts-sdk/sdk-syntax/xumm.payload-.../get-....md "mention")
-2. Verify the signature we send in a HTTP Header when we deliver the WebHook: [signature-verification.md](signature-verification.md "mention")\
+2. Verify the signature we send in a HTTP Header when we deliver the Webhook: [signature-verification.md](signature-verification.md "mention")\

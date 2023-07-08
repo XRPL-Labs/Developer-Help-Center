@@ -13,7 +13,7 @@ Delivering payloads within xApps is about efficiency and user experience. Since 
 
 ### How to Deliver Payloads within xApps
 
-1. **Create a Payload**: First, you need to create a payload with the transaction details. This payload is essentially a sign request you want the user to interact with.
-2. **Use Xumm SDK**: To deliver the payload within your xApp, use the Xumm SDK. The SDK provides functions allowing you to seamlessly integrate the payload within your xApp. Refer to the [Xumm SDK documentation](https://github.com/XRPL-Labs/XUMM-SDK).  for detailed information on how to use the SDK effectively.
-3. **Show the payload to the User**: Once integrated, the payload will be displayed to the user within your xApp. The user can then review and interact with the payload without leaving the xApp.
-4. **Handle Status Updates**: Implement logic to handle status updates. This includes whether the user signed or rejected the payload. Xumm SDK provides functions that allow you to receive status updates and take appropriate actions based on the user's response.
+1. **Create a Payload**: First, you need to create a payload with the transaction details. This payload is essentially a sign request you want the user to interact with. See:[sign-requests-payloads](../../../js-ts-sdk/examples-user-stories/sign-requests-payloads/ "mention")
+2. **Use Xumm SDK**: To deliver the payload within your xApp, use the Xumm SDK. The SDK provides functions allowing you to seamlessly integrate the payload within your xApp. See: [opensignrequest-....md](../../../js-ts-sdk/sdk-syntax/xumm.xapp-.../opensignrequest-....md "mention")
+3. Once integrated, the payload will be displayed to the user within your xApp. The user can then review and interact with the payload without leaving the xApp.
+4. **Handle Status Updates**: Implement logic to handle status updates. This includes whether the user signed or rejected the payload. Xumm SDK provides functions that allow you to receive status updates and take appropriate actions based on the user's response, see: [on-event-fn.md](../../../js-ts-sdk/sdk-syntax/xumm.xapp-.../on-event-fn.md "mention")

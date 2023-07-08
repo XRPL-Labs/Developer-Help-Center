@@ -4,9 +4,24 @@ description: >-
   involves delivering the payload to the user for signing.
 ---
 
-# Delivery
+# Payload Delivery
 
-Xumm offers multiple delivery methods to cater to different use cases and platforms. Here's a guide to understanding and implementing Xumm's payload delivery methods.
+### What is a Payload?
 
-* Explanation: Payload = Sign Request, sent by dev/app for user to open & interact with (review, reject/accept (sign)). Best delivery method depending on workflow.
-* See Status Updates on how to obtain payload interaction notifications & results [status-updates](../status-updates/ "mention")
+In Xumm, a payload is a sign request sent by applications or developers to users for interaction. Users review the payload and decide to reject or accept by signing.
+
+### Delivery Methods
+
+Xumm offers various payload delivery methods:
+
+* **Deep Linking**: Open the Xumm app with the payload already loaded.
+* **QR Code Scanning**: Users scan a QR code to access the payload.
+* **Push Notifications**: Send payloads as push notifications.
+
+### Status Updates
+
+After delivering a payload, tracking its status is vital to know whether the user has interacted with it. Xumm provides mechanisms for obtaining notifications and results of payload interactions. You can learn more about this in the [status-updates](../status-updates/ "mention") section.
+
+### Moving Forward
+
+Now that you have an overview of what payload delivery entails in Xumm, you can delve into the specifics of each delivery method.

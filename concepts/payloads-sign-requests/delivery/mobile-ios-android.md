@@ -1,9 +1,11 @@
 ---
 description: >-
-  For mobile applications developed for iOS or Android, Xumm provides
-  specialized delivery methods that are optimized for these platforms.
+  Mobile payload delivery is essential for a seamless experience in mobile
+  applications.
 ---
 
 # Mobile (iOS/Android)
 
-* This is an alias only, see [deeplink.md](deeplink.md "mention")
+In Xumm, this is achieved through Deep Linking. Deep Linking allows your mobile app to communicate directly with the Xumm app, enabling users to interact with payloads effortlessly.&#x20;
+
+For a detailed guide on implementing mobile payload delivery through Deep Linking, please refer to the [deeplink.md](deeplink.md "mention") page.

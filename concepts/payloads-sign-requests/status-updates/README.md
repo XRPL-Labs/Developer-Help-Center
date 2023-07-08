@@ -1,8 +1,36 @@
+---
+description: >-
+  Xumm's status updates are an essential tool for developers. They bridge the
+  gap between your application and the end user by providing real-time feedback
+  on payload interactions.
+---
+
 # Status updates
 
-* Payloads, when interacted with by users, yield real time status updates & have an end result (rejected, signed + signature, etc.)
-* Real time status updates show a user interacted with the payload, and give a realtime update when the payload has been resolved. They do not give the resolve data (for security reasons)
-  * Use this in your UI for the best experience ("opened", "signed", ...)
-  * You can subscribe to the websocket both in your frontend (to keep the user informed) and backend (to determine when you can fetch results)
-* Once resolved, a WebHook (HTTP Call) to your platform can be sent, see [webhooks](webhooks/ "mention")
-* You can also fetch the payload end results using API/SDK [xumm.payload-...](../../../js-ts-sdk/sdk-syntax/xumm.payload-.../ "mention")
+### Overview
+
+When users interact with payloads, Xumm provides real-time status updates and results (e.g., rejected, signed with signature). These updates are crucial for a user experience and help make informed decisions.
+
+### Real-Time Status Updates
+
+* Keep track of user interactions with the payload.
+* Update the UI to reflect statuses like "opened" or "signed".
+* They provide status but not the resolved data for security reasons.
+
+### Websocket Usage
+
+* Receive real-time updates in your front-end and back-end.
+* **Frontend**: Keep the user informed about the status.
+* **Backend**: Determine when you can fetch results.
+* This ensures responsiveness and keeps the end-user informed.
+
+### Fetching End Results
+
+* **WebHook**: Once the payload is resolved, a WebHook can be sent to your platform for backend processing. For more on WebHooks, see [webhooks](webhooks/ "mention").
+* **API/SDK**: Alternatively, fetch the payload end results using the Xumm API or SDK  [xumm.payload-...](../../../js-ts-sdk/sdk-syntax/xumm.payload-.../ "mention") for more control and flexibility.
+
+### Status Updates for End users
+
+Understanding the end user's experience is vital. The real-time status updates and WebHooks are not just technical tools but communication channels between your application and the user.&#x20;
+
+By effectively using these features, you ensure an engaging and informed experience for the user.

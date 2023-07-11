@@ -11,8 +11,8 @@ However, a payload can include a forced network identifier to specify a particul
 
 ### Key Points:
 
-1. **Network Independence:** The Xumm API/SDK operates independently of the network, giving the end user the freedom to choose their preferred network.
-2. **Forced Network Identifier**: Include a forced network identifier in a payload to specify a particular network.
-3. **Network Information in Results**: The results of a signed payload include information about the network the user was on at the time of signing.
+1. **Network Independence:** The Xumm API/SDK operates independently of the network, giving the end user the freedom to choose their preferred network in the Xumm app.
+2. **Network Information in Results**: The results of a signed payload include information about the network the user was on at the time of signing.
+3. **Forced Network Identifier**: A user can be on any network while signing. You must check for the expected result in the Payload results. Alternatively, you can include a forced network identifier in a payload to specify a particular network.
 4. **Network Information in OTT Data**: xApp OTT data also includes network information, providing additional resources for developers to manage transactions.
-5. **User Experience**: The choice of the network can impact the user experience and transaction processing times, so it's important to consider this in your application development process.
+5. **User Experience**: The choice of the network result in loss of goods or funds: imagine getting paid on Testnet, while delivering actual sold goods expecting a mainnet payment. It's important to consider this in your application development process.

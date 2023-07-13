@@ -18,9 +18,9 @@ This callback should trigger your application to fetch the payload results. It i
 Here are the steps to **verify that you have indeed received a payment**:
 
 1. **Check Payload Output**: Verify if the Payload output contains `meta.resolved`. This value should be `true`. Otherwise, the payload is still pending or has been abandoned by the user. Also, check if the Payload output contains `meta.signed`. This value should be `true`, indicating that the user signed the transaction.
-2. **Check Response Dispatched Node Type**: Verify the `response.dispatched_nodetype` value. If you are expecting a **real** payment, this value should contain `MAINNET`. If it doesn't**,** you ⚠️ might be accepting a TESTNET payment.
+2. **Check Response Dispatched Node Type**: Verify the `response.dispatched_nodetype` value. If you are expecting a **real** payment, this value should contain `MAINNET`. <mark style="color:red;background-color:yellow;">**If it doesn't, you might be accepting a TESTNET payment**</mark>!
 3. **Check Transaction ID**: The `response.txid` value is the on-ledger transaction hash. You must **verify** this transaction on the ledger. Note that it may take around 4 seconds for a ledger to close and slightly longer for the ledger and transaction info to propagate. You may want to repeat async/delay fetching this info if you don't get a result at first or if your result contains a `validated`: `false` value.
-4. [⚠️](https://emojipedia.org/warning/) **Check Delivered Amount**: After fetching the transaction details, check the `meta.delivered_amount` value to see if the amount of XRP (in drops, one million drops = one XRP) equals the expected amount to be paid. This is a crucial step in the verification process.
+4. ⚠️ **Check Delivered Amount**: After fetching the transaction details, check the `meta.delivered_amount` value to see if the amount of XRP (in drops, one million drops = one XRP) equals the expected amount to be paid. <mark style="color:red;background-color:yellow;">**This is a crucial step in the verification process**</mark>.
 
 ### **Fetching Transaction Details**
 

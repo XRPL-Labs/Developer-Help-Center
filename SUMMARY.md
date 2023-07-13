@@ -23,7 +23,7 @@
     * [Webhooks](concepts/payloads-sign-requests/status-updates/webhooks/README.md)
       * [Signature verification](concepts/payloads-sign-requests/status-updates/webhooks/signature-verification.md)
     * [API Call (polling)](concepts/payloads-sign-requests/status-updates/api-call-polling.md)
-  * [🚨 Verify transactions](concepts/payloads-sign-requests/verify-transactions.md)
+  * [🚨 Secure Payment Verification](concepts/payloads-sign-requests/verify-transactions.md)
   * [Networks](concepts/payloads-sign-requests/networks.md)
 * [Special Transaction Types](concepts/special-transaction-types.md)
 * [Limitations](concepts/limitations/README.md)

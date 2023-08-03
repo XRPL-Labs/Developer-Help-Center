@@ -6,7 +6,7 @@ description: >-
 
 # xAppBuilder 🏗️
 
-## ![](<../../../.gitbook/assets/Screenshot 2023-07-19 at 11.48.12 AM.png>)
+<figure><img src="../../../.gitbook/assets/Screenshot 2023-07-19 at 11.48.12 AM.png" alt=""><figcaption></figcaption></figure>
 
 ## Seamless xApp Emulation
 
@@ -16,7 +16,7 @@ What does this mean for you? Instant, real-time feedback on your code modificati
 
 xAppBuilder transforms these challenges into a smooth, manageable process.
 
-## Simplified OTT Handling
+## Simplified OTT Replay
 
 One Time Tokens (OTTs) and replay tokens can often present challenges, particularly for those new to xApp development.&#x20;
 
@@ -30,7 +30,7 @@ These real-time logs help you to monitor and understand your xApp's performance 
 
 ## Get Started with xAppBuilder
 
-Ready to level up your xApp development process? xAppBuilder is now live on [Snapcraft Store](https://snapcraft.io/xapp-builder), Mac App Store, and Windows Store. Check out the demo video and download the tool today!
+Ready to level up your xApp development process? xAppBuilder is now live for Linux on the [**Snapcraft Store**](https://snapcraft.io/xapp-builder), [**Mac App Store**](https://apps.apple.com/nl/app/xappbuilder/id6447613145?l=en-GB\&mt=12), and [**Windows Store**](https://apps.microsoft.com/store/detail/xappbuilder/9N38F4HZVDRZ?hl=en-sz\&gl=sz). Check out the demo video and download the tool today!
 
 For more about xApps and Xumm, visit our [Developer Center](https://docs.xumm.dev/). Here's to smoother, faster, and more efficient xApp development. Happy building, developers! 🏗️ 🛠️
 

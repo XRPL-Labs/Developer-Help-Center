@@ -4,8 +4,8 @@ description: 'Debugging your xApp is tricky: it runs on your phone. How to acces
 
 # Development & Debugging
 
-{% hint style="info" %}
-We are currently working on an xApp Developer App for desktop (Mac, Windows, Linux) to make testing & debugging xApps locally much easier. While this application is not available yet, the information below applies.
+{% hint style="success" %}
+The easiest way to debug your xApps is by using our xApp Developer App for desktop (Mac, Windows, Linux): [xappbuilder](xappbuilder/ "mention")
 {% endhint %}
 
 Some things that may help debugging your xApp:

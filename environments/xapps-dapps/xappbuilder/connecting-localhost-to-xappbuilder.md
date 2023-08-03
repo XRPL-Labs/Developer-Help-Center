@@ -21,7 +21,7 @@ Then, initiate the Live Server by clicking the 'Go Live' button/link located in 
 
 In your terminal, execute the command npm install -g localtunnel. If you encounter a permission error, use sudo npm install -g localtunnel.
 
-Following this, run lt --port 5500, making sure to replace '5500' with the port number noted in Step 1.
+Following this, run `lt --port 5500`, making sure to replace '5500' with the port number noted in Step 1.
 
 The terminal will output a unique URL. Copy this, and open it in your browser. Here, submit your IP address (if you are unsure of your IP, a quick Google search of 'whatsmyip' will provide it).
 

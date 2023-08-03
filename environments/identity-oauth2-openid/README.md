@@ -5,7 +5,7 @@ description: >-
   their self custodial XRPL accounts.
 ---
 
-# Identity (OAuth2, OpenID)
+# 🙇 Identity (OAuth2, OpenID)
 
 {% hint style="info" %}
 All credentials created in the Xumm Developer Console ([https://apps.xumm.dev](https://apps.xumm.dev)) will work with the OAuth2 / OpenID Connect flow.
@@ -60,11 +60,4 @@ All JWTs the obtained by a successful user sign in are valid for **one day (24h)
 
 ...
 
-| Endpoint type                         | Path (URL linked)                                                                                                    |
-| ------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
-| Authorization                         | https://oauth2.xumm.app/[auth](https://oauth2.xumm.app/auth)                                                         |
-| Token                                 | https://oauth2.xumm.app/[token](https://oauth2.xumm.app/token)                                                       |
-| Userinfo                              | https://oauth2.xumm.app/[userinfo](https://oauth2.xumm.app/userinfo)                                                 |
-| JWKS                                  | https://oauth2.xumm.app/[certs](https://oauth2.xumm.app/certs)                                                       |
-| OpenID Connect Metadata               | https://oauth2.xumm.app/[.well-known/openid-configuration](https://oauth2.xumm.app/.well-known/openid-configuration) |
-| _All other JWT compatible Xumm API's_ | See our API docs: [reference/oauth2-jwt](https://xumm.readme.io/reference/oauth2-jwt)                                |
+<table><thead><tr><th width="250">Endpoint type</th><th>Path (URL linked)</th></tr></thead><tbody><tr><td>Authorization</td><td>https://oauth2.xumm.app/<a href="https://oauth2.xumm.app/auth">auth</a></td></tr><tr><td>Token</td><td>https://oauth2.xumm.app/<a href="https://oauth2.xumm.app/token">token</a></td></tr><tr><td>Userinfo</td><td>https://oauth2.xumm.app/<a href="https://oauth2.xumm.app/userinfo">userinfo</a></td></tr><tr><td>JWKS</td><td>https://oauth2.xumm.app/<a href="https://oauth2.xumm.app/certs">certs</a></td></tr><tr><td>OpenID Connect Metadata </td><td>https://oauth2.xumm.app/<a href="https://oauth2.xumm.app/.well-known/openid-configuration">.well-known/openid-configuration</a></td></tr><tr><td><em>All other JWT compatible Xumm API's</em></td><td>See our API docs: <a href="https://xumm.readme.io/reference/oauth2-jwt">reference/oauth2-jwt</a></td></tr></tbody></table>

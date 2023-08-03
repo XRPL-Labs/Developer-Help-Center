@@ -5,7 +5,7 @@ description: >-
   Xumm as well. This uses application deep links.
 ---
 
-# Native Apps
+# 🎛 Native Apps
 
 The process to integrate Sign In with Xumm and transaction signing by Xumm with your own native app is actually quite similar to **either** the [browser-web3](browser-web3/ "mention")flow: it uses OAuth2 (PKCE or Implicit flow) or the [backend-sdk-api.md](backend-sdk-api.md "mention")flow.
 

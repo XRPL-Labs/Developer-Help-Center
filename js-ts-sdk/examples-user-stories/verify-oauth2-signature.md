@@ -1,10 +1,10 @@
 ---
 description: >-
-  If you used the Xumm native OAuth2 Sign In ("Web3" sign in), you can fetch the
-  corresponding payload to verify the signature as well.
+  You can fetch the corresponding payload to verify the signature, to make sure
+  it's signed by the account you expected to sign the payload.
 ---
 
-# Verify OAuth2 signature
+# Verify Payload signature
 
 ```javascript
 xumm.payload?.get('some-payload-uuid').then(payloadResult => { /**/ })

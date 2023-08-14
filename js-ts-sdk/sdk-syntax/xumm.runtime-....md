@@ -1,5 +1,7 @@
 # Xumm.runtime { ... }
 
-* cli
-* browser
-* xapp
+Contains booleans for the applicable environments:
+
+* `cli`
+* `browser`
+* `xapp`

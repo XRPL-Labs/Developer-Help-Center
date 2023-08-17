@@ -7,7 +7,7 @@ description: >-
 
 # xApp
 
-xApps are natively aware of the end user context, so a Sign Request payload can easily be served with the `xumm.xapp.openSignRequest` method: [opensignrequest-....md](../../sdk-syntax/xumm.xapp-.../opensignrequest-....md "mention")
+xApps are natively aware of the end user context, so a Sign Request payload can easily be served with the `xumm.xapp.openSignRequest` method: [opensignrequest.md](../../sdk-syntax/xumm.xapp/opensignrequest.md "mention")
 
 {% tabs %}
 {% tab title="JavaScript (VanillaJS)" %}

@@ -13,7 +13,7 @@ You can get access to the remote browser console using the techniques explained 
 If you want to share your xApp with a small group of testers or team members, you can ask them for their Xumm Device Identifier (Xumm - Settings - Advanced). You can add up to 10 Device Identifiers as xApp testers, so they can open your sandboxed xApp.
 
 {% hint style="info" %}
-Warning! If you have multiple xApps (e.g. a live version & a test version, pointing to your development URL) please make sure to use the right API Key, otherwise your app can't communicate with the Xumm backend. Also note things like [xumm.userstore-...](../../js-ts-sdk/sdk-syntax/xumm.userstore-.../ "mention") are API Key & user bound.
+Warning! If you have multiple xApps (e.g. a live version & a test version, pointing to your development URL) please make sure to use the right API Key, otherwise your app can't communicate with the Xumm backend. Also note things like [xumm.userstore](../../js-ts-sdk/sdk-syntax/xumm.userstore/ "mention") are API Key & user bound.
 {% endhint %}
 
 When you want to develop in your local browser instead of in Xumm, please see the "**OTT Replay**" section in the [debugging.md](debugging.md "mention") article.

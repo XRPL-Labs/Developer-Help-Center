@@ -49,5 +49,5 @@ The Websocket payload resolve message looks like:
 ```
 
 {% hint style="info" %}
-The payload information the Websocket connection delivers **does not contain** the entire payload object. It should be considered a trigger to **GET** the entire payload using an SDK/API call: [get-....md](../../../js-ts-sdk/sdk-syntax/xumm.payload-.../get-....md "mention")
+The payload information the Websocket connection delivers **does not contain** the entire payload object. It should be considered a trigger to **GET** the entire payload using an SDK/API call: [get.md](../../../js-ts-sdk/sdk-syntax/xumm.payload/get.md "mention")
 {% endhint %}

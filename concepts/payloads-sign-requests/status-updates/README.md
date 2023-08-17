@@ -26,7 +26,7 @@ When users interact with payloads, Xumm provides real-time status updates and re
 ### Fetching End Results
 
 * **Webhook**: Once the payload is resolved, a Webhook can be sent to your platform for backend processing. For more on WebHooks, see [webhooks](webhooks/ "mention").
-* **API/SDK**: Alternatively, fetch the payload end results using the Xumm API or SDK  [xumm.payload-...](../../../js-ts-sdk/sdk-syntax/xumm.payload-.../ "mention") for more control and flexibility.
+* **API/SDK**: Alternatively, fetch the payload end results using the Xumm API or SDK  [xumm.payload](../../../js-ts-sdk/sdk-syntax/xumm.payload/ "mention") for more control and flexibility.
 
 ### Status Updates for End users
 

@@ -32,7 +32,7 @@ xApps can be opened (triggered) in lots of ways:
 
 {% hint style="info" %}
 To prevent showing a double loader (first the Xumm xApp loader, then your xApp's loader while hydrating / booting) you can enable the "**Xumm Loader Screen**" option in the Xumm Developer Console (xApp tab).\
-See [ready.md](../../js-ts-sdk/sdk-syntax/xumm.xapp-.../ready.md "mention")
+See [ready.md](../../js-ts-sdk/sdk-syntax/xumm.xapp/ready.md "mention")
 {% endhint %}
 
 ### Advanced ways to open xApps

@@ -20,7 +20,7 @@ These actions can be sent form your xApp (frontend Javascript) context, and will
 * etc.
 
 {% hint style="info" %}
-To prevent showing a double loader (first the Xumm xApp loader, then your xApp's loader while hydrating / booting) you can enable the "**Xumm Loader Screen**" option in the Xumm Developer Console (xApp tab). See [ready.md](../../js-ts-sdk/sdk-syntax/xumm.xapp-.../ready.md "mention")
+To prevent showing a double loader (first the Xumm xApp loader, then your xApp's loader while hydrating / booting) you can enable the "**Xumm Loader Screen**" option in the Xumm Developer Console (xApp tab). See [ready.md](../../js-ts-sdk/sdk-syntax/xumm.xapp/ready.md "mention")
 {% endhint %}
 
 **Your xApp can also receive events (data) from Xumm:**
@@ -60,11 +60,11 @@ Certain actions in Xumm will trigger an event so your xApp can retrieve data or 
 ## Trigger actions
 
 {% hint style="info" %}
-For all Xumm UI (interface) actions / worfklows you can trigger, see the SDK documentation: [xumm.xapp-...](../../js-ts-sdk/sdk-syntax/xumm.xapp-.../ "mention")
+For all Xumm UI (interface) actions / worfklows you can trigger, see the SDK documentation: [xumm.xapp](../../js-ts-sdk/sdk-syntax/xumm.xapp/ "mention")
 {% endhint %}
 
 ## Receive events
 
 {% hint style="info" %}
-For all events emitted in your xApp (like the async follow up data of an xApp UI action triggered), see the xApp event handler: [on-event-fn.md](../../js-ts-sdk/sdk-syntax/xumm.xapp-.../on-event-fn.md "mention")
+For all events emitted in your xApp (like the async follow up data of an xApp UI action triggered), see the xApp event handler: [on-event-fn.md](../../js-ts-sdk/sdk-syntax/xumm.xapp/on-event-fn.md "mention")
 {% endhint %}

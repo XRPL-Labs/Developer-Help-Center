@@ -33,5 +33,5 @@ If there are good reasons to assign elevated API limits, we're happy to have a d
 
 API limits will only be raised if:
 
-* Your app **does not use polling techniques**: to retrieve the status of a payload, use the websocket we provide for status updates (or the `createAndSubscribe` / `subscribe` method provided by the SDK: [createandsubscribe-....md](../../js-ts-sdk/sdk-syntax/xumm.payload-.../createandsubscribe-....md "mention") / [createandsubscribe-....md](../../js-ts-sdk/sdk-syntax/xumm.payload-.../createandsubscribe-....md "mention")). Backend applications can also use a webhook: [webhooks](../payloads-sign-requests/status-updates/webhooks/ "mention").
+* Your app **does not use polling techniques**: to retrieve the status of a payload, use the websocket we provide for status updates (or the `createAndSubscribe` / `subscribe` method provided by the SDK: [createandsubscribe.md](../../js-ts-sdk/sdk-syntax/xumm.payload/createandsubscribe.md "mention") / [createandsubscribe.md](../../js-ts-sdk/sdk-syntax/xumm.payload/createandsubscribe.md "mention")). Backend applications can also use a webhook: [webhooks](../payloads-sign-requests/status-updates/webhooks/ "mention").
 * (If your app is an xApp) - Your app respects the xApp [requirements.md](../../environments/xapps-dapps/requirements.md "mention")\

@@ -6,6 +6,7 @@
 
 * [Getting started](concepts/getting-started.md)
   * [Terminology](concepts/terminology.md)
+  * [Developer Education](concepts/getting-started/developer-education.md)
 * [🔐 Authorization & Credentials](concepts/authorization.md)
 * [Payloads (sign requests)](concepts/payloads-sign-requests/README.md)
   * [Workflow](concepts/payloads-sign-requests/workflow.md)
@@ -99,7 +100,7 @@
     * [list()](js-ts-sdk/sdk-syntax/xumm.userstore/list.md)
     * [get( … )](js-ts-sdk/sdk-syntax/xumm.userstore/get.md)
     * [delete( … )](js-ts-sdk/sdk-syntax/xumm.userstore/delete.md)
-    * [set( … , { … } )](js-ts-sdk/sdk-syntax/xumm.userstore/set.md)
+    * [set( … , { … } )](js-ts-sdk/sdk-syntax/xumm.userstore/set-...-....md)
   * [Xumm.backendstore { … }](js-ts-sdk/sdk-syntax/xumm.backendstore/README.md)
     * [get()](js-ts-sdk/sdk-syntax/xumm.backendstore/get.md)
     * [set({ … })](js-ts-sdk/sdk-syntax/xumm.backendstore/set.md)

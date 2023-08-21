@@ -6,7 +6,7 @@ description: >-
 
 # Build on Xumm
 
-**Welcome to Xumm the Xumm Developer Docs!**\
+**Welcome the Xumm Developer Docs!**\
 \
 **Xumm is a powerful platform designed to make your interaction with the XRP Ledger (XRPL) seamless. Whether you are an experienced developer or just getting started, Xumm offers a range of features, including xApps, payloads, transaction signing, and much more.**\
 \

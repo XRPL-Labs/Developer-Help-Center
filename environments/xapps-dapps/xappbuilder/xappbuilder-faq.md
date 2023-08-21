@@ -36,3 +36,5 @@ If you are not the owner of the xApp, you will need to ask the owner to input yo
 For Mac users, you can also use Shift + Click on the tray icon to exit.
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2023-08-02 at 4.15.31 PM.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/screenshot-network-switch.png" alt="Screensshot of the location of the URL for switching networks in xApp Builder"><figcaption><p>Location of the URL for switching networks in xApp Builder</p></figcaption></figure>

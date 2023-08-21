@@ -37,4 +37,27 @@ For Mac users, you can also use Shift + Click on the tray icon to exit.
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2023-08-02 at 4.15.31 PM.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/screenshot-network-switch.png" alt="Screensshot of the location of the URL for switching networks in xApp Builder"><figcaption><p>Location of the URL for switching networks in xApp Builder</p></figcaption></figure>
+#### Switching Network 
+
+#### **Q: How can I access my xApp from a different network within xAppBuilder?**
+
+**A:** First, switch to your desired network in Xumm. Next, open the relevant xApp within Xumm — this action generates the OTT for replay. Following this, click on the 'Refetch' button(top left corner) in xAppBuilder and open the xApp in xAppBuilder.
+
+
+
+
+
+It's important to note that xAppBuilder doesn't connect to any specific network by itself. The connection relies on the most recent OTT of your xApp. For instance, if you last accessed your xApp on the Testnet and subsequently open it in xAppBuilder, it will connect to the Testnet.
+
+
+
+If the network hasn't switched, ensure that you're accessing the xApp within xAppBuilder using the same account (raddress) as the one you recently used in Xumm OR maybe you forgot to click on the 'Refetch' button.
+
+
+
+**Verify Network in xAppBuilder**\
+
+
+<figure><img src="../../../.gitbook/assets/screenshot-network-switch.png" alt="Screensshot of the location of the URL for switching networks in xApp Builder"><figcaption><p>Location of the URL after switching networks</p></figcaption></figure>
+
+\

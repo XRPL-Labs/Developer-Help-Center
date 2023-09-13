@@ -1,3 +1,7 @@
+---
+description: Get the curated assets (shortlist in Xumm) for Trust Lines
+---
+
 # getCuratedAssets()
 
 The `getCuratedAssets` method allows you to get the list of trusted issuers and IOU's. This is the same list used to populate the "Add Asset" button at the XUMM home screan.

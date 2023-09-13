@@ -1,3 +1,9 @@
+---
+description: >-
+  Get meta information for a known Hook, by specifying the Hook Hash (64 hex
+  chars)
+---
+
 # getHookHash( … )
 
 **Sdk.getHookHash(hookHash: string)**

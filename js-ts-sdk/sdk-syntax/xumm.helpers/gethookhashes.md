@@ -1,3 +1,9 @@
+---
+description: >-
+  Get the meta information for all known Hooks. Object returned contains Hook
+  hash as key, meta as value.
+---
+
 # getHookHashes()
 
 **Sdk.getHookHashes()**

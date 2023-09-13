@@ -1,3 +1,7 @@
+---
+description: Contact the Xumm platform to check for connectivity and valid auth.
+---
+
 # ping()
 
 The `ping` method allows you to verify API access (valid credentials) and returns some info on your XUMM APP:

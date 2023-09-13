@@ -1,4 +1,10 @@
-# getNftokenDetail( ... )
+---
+description: >-
+  Get NFT Token details. Only available in JWT context. Please fetch your NFT
+  info from other NFT data sources if possible.
+---
+
+# getNftokenDetail( … )
 
 > This method is only available when using the SDK in a `JWT` context!
 

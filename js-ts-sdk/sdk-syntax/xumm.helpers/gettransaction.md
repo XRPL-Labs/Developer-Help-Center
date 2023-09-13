@@ -1,4 +1,11 @@
-# getTransaction( ... )
+---
+description: >-
+  Fetch an XRPL transaction & metadata. Please don't use this method unless
+  absolutely necessary: please set up your own connection to an XRPL node to
+  fetch this information.
+---
+
+# getTransaction( … )
 
 The `getTransaction` method allows you to get the transaction outcome (mainnet) live from the XRP ledger, as fetched for you by the XUMM backend.
 

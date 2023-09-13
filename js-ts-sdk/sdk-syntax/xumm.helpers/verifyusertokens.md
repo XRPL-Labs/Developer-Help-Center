@@ -1,4 +1,10 @@
-# verifyUserTokens(\[ ... ])
+---
+description: >-
+  Verify a user token (or multiple), to see if the token is still valid (not
+  expired, not revoked) and can be used to deliver sign requests to user(s)
+---
+
+# verifyUserTokens(\[ … ])
 
 The `verifyUserTokens` (or single token: `verifyUserToken`) method allows you to verify one or more User Tokens obtained from previous sign requests. This allows you to detect if you will be able to push your next Sign Request to specific users.
 

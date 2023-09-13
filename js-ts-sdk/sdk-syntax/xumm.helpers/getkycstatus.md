@@ -1,4 +1,10 @@
-# getKycStatus( ... )
+---
+description: >-
+  Get the KYC status for users, based on a user_token issued by a successful
+  sign request.
+---
+
+# getKycStatus( … )
 
 The `getKycStatus` return the KYC status of a user based on a user\_token, issued after the user signed a Sign Request (from your app) before (see Payloads - Intro).
 

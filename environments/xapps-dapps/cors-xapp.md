@@ -13,7 +13,7 @@ If an xApp integration doesn't allow for running commands, and the console shows
 
 * The SDK can't reach Xumm (the app), so:
 * "Could not contact Xumm host" error appears, and:
-* FOr example: the `openSignRequest` trigger doesn't fire, the Sign Request doesn't open, and:
+* For example: the `openSignRequest` trigger doesn't fire, the Sign Request doesn't open, and:
 * Xumm keeps on trying, and is stalling the init. to see if the host can be reached - yielding "Attempt n » Retry" console messages (just to make sure it isn't a timing issue).
 
 #### Find the cause

@@ -29,16 +29,36 @@ xApps are WebApps, embedded in Xumm for a great user experience. They add value 
 ## Accessibility&#x20;
 
 * Simple accessible navigation&#x20;
-* Clear icons
-
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/icons.png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
+* Clear icons:\
+  ![](<../../.gitbook/assets/icons (1).png>)
 * Reduce clutter: Keep minimum content on screen&#x20;
-* Use accessible fonts
+* Use accessible fonts\
+  ![](../../.gitbook/assets/fonts.png)
+* Use minimal of 16pt font for standard **body text**
+* Test on different devices:\
+  ![](../../.gitbook/assets/devices.png)
+* Manage information on a logical level
+* Consistency in design
+* Use a 40x40px target area for touch controls
+* Good (horizontal) alignment:\
+  ![](<../../.gitbook/assets/alignment (1).png>)
+* Distinction between primary and secondary Buttons:\
+  ![](../../.gitbook/assets/buttons.png)
+* Clear error text:\
+  ![](<../../.gitbook/assets/error text.png>)
+* Appropriate color contrast:\
+  ![](../../.gitbook/assets/contrast.png)
+* No slang or bad grammar. Use proper English.&#x20;
+* Human like language:\
+  ![](<../../.gitbook/assets/human like text.png>)
+* Breaking up content:\
+  <img src="../../.gitbook/assets/content.png" alt="" data-size="original">
+
+Accessibility Tools:
+
+* Contrast checker link 1: [https://accessibleweb.com/color-contrast-checker](https://accessibleweb.com/color-contrast-checker/)
+* Contrast checker link 2: [https://contrastchecker.com/](https://contrastchecker.com/)
+* Iconset: [https://feathericons.com/](https://feathericons.com/)
 
 ## Styling
 

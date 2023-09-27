@@ -26,6 +26,20 @@ xApps are WebApps, embedded in Xumm for a great user experience. They add value 
 * Reliable user-bound storage is available not through cookies / localStorage, but through the Xumm `userstore`: [xumm.userstore](../../js-ts-sdk/sdk-syntax/xumm.userstore "mention")
 * No polling should be used: to retrieve the status of a payload, use the websocket we provide for status updates (or the `createAndSubscribe` / `subscribe` method provided by the SDK: [createandsubscribe.md](../../js-ts-sdk/sdk-syntax/xumm.payload/createandsubscribe.md "mention") / [createandsubscribe.md](../../js-ts-sdk/sdk-syntax/xumm.payload/createandsubscribe.md "mention")). Backend applications can also use a webhook: [webhooks](../../concepts/payloads-sign-requests/status-updates/webhooks/ "mention").
 
+## Accessibility&#x20;
+
+* Simple accessible navigation&#x20;
+* Clear icons
+
+<div align="left">
+
+<figure><img src="../../.gitbook/assets/icons.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+* Reduce clutter: Keep minimum content on screen&#x20;
+* Use accessible fonts
+
 ## Styling
 
 * xApps should either have their own colour scheme (dark/light mode independent) or respect the Xumm colour schemes: [style-guide.md](style-guide.md "mention"). The end user styling will be passed to the xApp using the `xAppStyle` query parameter.

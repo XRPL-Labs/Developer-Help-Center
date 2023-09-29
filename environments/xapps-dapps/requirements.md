@@ -50,7 +50,7 @@ xApps are WebApps, embedded in Xumm for a great user experience. They add value 
   ![](../../.gitbook/assets/contrast.png)
 * No slang or bad grammar. Use proper English.&#x20;
 * Human like language:\
-  ![](<../../.gitbook/assets/human like text.png>)
+  ![](<../../.gitbook/assets/add to cart (1).png>)
 * Breaking up content:\
   <img src="../../.gitbook/assets/content.png" alt="" data-size="original">
 

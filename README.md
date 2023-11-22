@@ -34,7 +34,7 @@ What are you going to build? Read more about specific user & developer flows:
 
 The Xumm SDK offers a ready to use Javascript & Typescript SDK for all frontend and backend projects. With only minor differences depending on the environment you are using the SDK in, the SDK is the most convenient way to interact with Xumm users & the Xumm ecosystem.
 
-If you are not working in a [Javascript/Typescript](https://www.npmjs.com/package/xumm) environment and prefer to build your own backend implementation, you can use our [API (endpoint) documentation](https://xumm.readme.io/v1.0/reference/post-payload) or use one of our SDKs for [Python (PyPI)](https://pypi.org/project/xumm-sdk-py/), [PHP (Packagist)](https://packagist.org/packages/xrpl/xumm-sdk-php) or [C# (NuGet)](https://www.nuget.org/packages/XUMM.NET.SDK)
+If you are not working in a [Javascript/Typescript](https://www.npmjs.com/package/xumm) environment and prefer to build your own backend implementation, you can use our [API (endpoint) documentation](https://xumm.readme.io/reference/about) or use one of our SDKs for [Python (PyPI)](https://pypi.org/project/xumm-sdk-py/), [PHP (Packagist)](https://packagist.org/packages/xrpl/xumm-sdk-php) or [C# (NuGet)](https://www.nuget.org/packages/XUMM.NET.SDK)
 
 | Language                    | Maintenance     | Package                                                                                                                          |
 | --------------------------- | --------------- | -------------------------------------------------------------------------------------------------------------------------------- |

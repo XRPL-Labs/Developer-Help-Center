@@ -134,3 +134,17 @@ xumm.xapp.on('destination', data => {
 {% endtab %}
 {% endtabs %}
 
+## Network Switch
+
+The user switched the selected **network** in Xumm while present in the xApp, while your xApp settings (Xumm Developer Console) indicate the xApp shouldn't reload but receive an event.\
+The event will contain a property `network` with a key referring to a network from the `rails` endpoint:\
+[https://xumm.app/api/v1/jwt/rails](https://xumm.app/api/v1/jwt/rails)
+
+```javascript
+// <script src="https://xumm.app/assets/cdn/xumm.min.js"></script>
+var xumm = new Xumm('your-api-key')
+
+xumm.xapp.on('network', data => {
+  console.log('New network selected', data.network)
+})
+```

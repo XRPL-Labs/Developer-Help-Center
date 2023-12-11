@@ -2,7 +2,11 @@
 description: Navigate to another xApp (by identifier)
 ---
 
-# navigate({ ... })
+# navigate({ … })
+
+{% hint style="warning" %}
+Warning! This command is **permissioned**. To use it in your xApp, please contact Xumm[ Support](https://xumm.app/detect/xapp:xumm.support-md), explain the user flow & use case and share your API key so we can discuss granting your xApp this permission.
+{% endhint %}
 
 ## Parameters
 

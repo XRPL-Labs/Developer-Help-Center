@@ -27,7 +27,7 @@ xumm.xapp.on('payload', data => {
 {% tab title="Response: signed" %}
 ```json
 {
-  "reason": "DECLINED",
+  "reason": "SIGNED",
   "uuid": "the-payload-uuid"
 }
 ```
@@ -36,7 +36,7 @@ xumm.xapp.on('payload', data => {
 {% tab title="Response: declined" %}
 ```json
 {
-  "reason": "SIGNED",
+  "reason": "DECLINED",
   "uuid": "the-payload-uuid"
 }
 ```

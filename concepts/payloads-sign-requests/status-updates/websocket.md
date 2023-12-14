@@ -24,6 +24,10 @@ When the user resolves after the expiration moment, the webhook and callback wil
 
 <table><thead><tr><th width="348">Event</th><th>JSON</th></tr></thead><tbody><tr><td>Connected</td><td><code>{"message":"Welcome &#x3C;payload-uuid>"}</code></td></tr><tr><td>After connecting and every 15 seconds while the connection is alive, a negative value means the transaction expired that many seconds ago</td><td><code>{"expires_in_seconds":54}</code></td></tr><tr><td>When the user received the payload, eg. push notification, deeplink or QR scan</td><td><code>{"opened":true}</code></td></tr><tr><td>When the Xumm SDK/API fetched the payload details</td><td><code>{"devapp_fetched":true}</code></td></tr><tr><td>When the user starts the signing routine</td><td><code>{"pre_signed":true}</code></td></tr><tr><td>When the submission to a node starts</td><td><code>{"dispatched":true}</code></td></tr><tr><td>When the payload is resolved</td><td><code>{"payload_uuidv4": "...", [...] }</code><br>With: <code>signed: true/false</code></td></tr><tr><td>When the payload is expired</td><td><code>{"expired":true}</code></td></tr></tbody></table>
 
+{% hint style="warning" %}
+**WARNING! Do not just rely on a \`signed: true\` indication! If you receive a websocket message with \`signed: true\` indication, always fetch the payload to confirm that all payment details are as expected.**
+{% endhint %}
+
 ## Sample
 
 The Websocket payload resolve message looks like:

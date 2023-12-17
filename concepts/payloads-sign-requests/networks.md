@@ -9,6 +9,10 @@ description: >-
 
 However, a payload can include a forced network identifier to specify a particular network. When a user signs a payload, the result includes information about the network the user was on when signing, allowing developers to track and manage transactions across different networks.&#x20;
 
+{% hint style="info" %}
+If your payload contains a `NetworkID`, it is only valid for the given network. Xumm will ask a user to switch to the given network (starting Xumm 2.6.0)
+{% endhint %}
+
 ### Key Points:
 
 1. **Network Independence:** The Xumm API/SDK operates independently of the network, giving the end user the freedom to choose their preferred network in the Xumm app.

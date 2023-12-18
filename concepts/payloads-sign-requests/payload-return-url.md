@@ -10,6 +10,10 @@ The Return URL (`return_url)` determines where the user is sent when the payload
 **Warning!** iOS and Android **do not allow** the user to return to the browser tab they came from (if your flow starts in a browser). Make sure you restore state based on the payload / session / custom identifier or custom metadata assigned to the payload.
 {% endhint %}
 
+{% hint style="info" %}
+When a payload is created using the Xumm SDK in an xApp flow, the return URL is ignoded as the user will return to the xApp post signing, where an SDK event will be triggered.
+{% endhint %}
+
 ## Replacement variables
 
 #### You can add the following replacement tags in your Return URL. They will be replaced with the appropriate values by Xumm.

@@ -23,3 +23,8 @@ const payload = await xumm.payload?.create({
   }
 })) 
 ```
+
+{% hint style="info" %}
+To decide where the user is sent after signing the payload, please read:\
+[payload-return-url.md](../../../concepts/payloads-sign-requests/payload-return-url.md "mention")
+{% endhint %}

@@ -9,7 +9,7 @@ description: >-
 
 The Xumm SDK can run fully client side: either as part of your compiled web app or using plain HTML and Javascript using our ready to use [browserified](https://xumm.app/assets/cdn/xumm.min.js) version.
 
-Using the Xumm SDK, you can easily add "Sign in with Xumm" capabilities to your web app. You don't even need a backend. You get the full "Web3" experience (sign in with a blockchain account) with our "Web2" compatible stack (see: [Broken link](broken-reference "mention")).
+Using the Xumm SDK, you can easily add "Sign in with Xumm" capabilities to your web app. You don't even need a backend. You get the full "Web3" experience (sign in with a blockchain account) with our "Web2" compatible stack (see: [identity-oauth2-openid](../identity-oauth2-openid/ "mention") / [native-apps.md](../native-apps.md "mention")).
 
 {% hint style="success" %}
 Make sure to add the **return URL** (also known as **redirect URL**) in the Xumm[ Developer Console](https://apps.xumm.dev/) on the application home page in the "**Origin/Redirect URIs (one per line)**" field.

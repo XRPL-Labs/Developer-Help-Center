@@ -7,7 +7,7 @@ description: >-
 
 # Implementation checklist
 
-* [ ] **Verify transactions on ledger:** [verify-transactions.md](payloads-sign-requests/verify-transactions.md "mention")
+* [ ] **Verify transactions on ledger:** [verify-transactions.md](../payloads-sign-requests/verify-transactions.md "mention")
 
 1. **Fetch Payload Results:** Trigger your application to fetch payload results after receiving a Webhook callback.
 2. **Inspect Payload Output:** Confirm `meta.resolved` and `meta.signed` are both true in the payload output.
@@ -16,14 +16,14 @@ description: >-
 5. **Examine Delivered Amount:** Confirm the `meta.delivered_amount` equals the expected payment amount.
 6. **Use xrpl-txdata Package:** Establish a connection to the XRP Ledger, fetch the transaction by hash, and cross-verify transaction details with the XRPL ledger.
 
-* [ ] **Consider the end user network:** [networks.md](payloads-sign-requests/networks.md "mention")
+* [ ] **Consider the end user network:** [networks.md](../payloads-sign-requests/networks.md "mention")
 
 1. **Network Independence:** Use the Xumm API/SDK, which operates independently of the network, to allow users the freedom of network choice.
 2. **Network Information:** Ensure the results of a signed payload include the network the user was on during the signing.
 3. **Forced Network Identifier:** Check for the expected result in the Payload results or specify a particular network using a forced network identifier in a payload.
 4. **OTT Data:** Utilize xApp OTT data, including network information, to better manage transactions.
 
-* [ ] **Verify Webhook signatures:** [signature-verification.md](payloads-sign-requests/status-updates/webhooks/signature-verification.md "mention")
+* [ ] **Verify Webhook signatures:** [signature-verification.md](../payloads-sign-requests/status-updates/webhooks/signature-verification.md "mention")
 
 1. **Secure Your Webhooks:** Implement appropriate security measures.
 2. **Verify Payloads:** Authenticate received payloads.
@@ -31,7 +31,7 @@ description: >-
 
 * [ ] **Protecting your application from the "partial payments exploit"** is crucial when implementing payment functionalities. Instead of relying on the `Amount` field, which merely indicates the transaction instruction, you should base your logic on the `delivered_amount` field in the transaction metadata. The `Amount` field is the **instruction**, and the **delivered\_amount** metadata field is the result. For more detailed information, please refer to the [XRPL.org documentation](https://xrpl.org/partial-payments.html#the-delivered\_amount-field).\
 
-* [ ] **xApps**: [requirements.md](../environments/xapps-dapps/requirements.md "mention")
+* [ ] **xApps**: [requirements.md](../../environments/xapps-dapps/requirements.md "mention")
 
 1. **xApp Creation & Audit:** Anyone can create sandbox xApps, but public release requires an audit by XRPL Labs for user safety, compliance, and value addition.
 2. **User Experience:** xApps must be self-explanatory, prevent dangerous mistakes, and provide a unique experience tailored to Xumm users.

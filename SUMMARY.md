@@ -32,7 +32,8 @@
   * [Rate limits](concepts/limitations/rate-limits.md)
   * [Transaction types](concepts/limitations/transaction-types.md)
   * [Push permission](concepts/limitations/push-permission.md)
-* [Implementation checklist](concepts/implementation-checklist.md)
+* [Implementation checklist](concepts/implementation-checklist/README.md)
+  * [Protocol specific checks](concepts/implementation-checklist/protocol-specific-checks.md)
 
 ## Environments
 

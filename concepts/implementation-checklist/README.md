@@ -22,6 +22,7 @@ description: >-
 2. **Network Information:** Ensure the results of a signed payload include the network the user was on during the signing.
 3. **Forced Network Identifier:** Check for the expected result in the Payload results or specify a particular network using a forced network identifier in a payload.
 4. **OTT Data:** Utilize xApp OTT data, including network information, to better manage transactions.
+5. When linking to Transaction Details using a Transaction Explorer, consider using our helper tooling: [tx-explorer-s.md](../payloads-sign-requests/tx-explorer-s.md "mention")
 
 * [ ] **Verify Webhook signatures:** [signature-verification.md](../payloads-sign-requests/status-updates/webhooks/signature-verification.md "mention")
 

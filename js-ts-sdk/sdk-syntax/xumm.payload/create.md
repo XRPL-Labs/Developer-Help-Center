@@ -1,6 +1,33 @@
-# create( ... )
+# create( … )
 
-To create a payload, a `txjson` XRPL transaction can be provided. Alternatively, a transaction formatted as HEX blob (string) can be provided in a `txblob` property. **See the intro for more information about payloads.** Take a look at the [Developer Docs for more information about payloads](https://xumm.readme.io/docs/your-first-payload).
+To create a payload, a `txjson` XRPL transaction can be provided. Alternatively, a transaction formatted as HEX blob (string) can be provided in a `txblob` property.&#x20;
+
+### Example contents of a payload
+
+{% hint style="info" %}
+&#x20;Take a look at the [**API Docs for more information about payloads object contents**](https://xumm.readme.io/reference/post-payload) and possible replacement variables for the Return URLs.
+{% endhint %}
+
+```javascript
+{
+  txjson: {
+    TransactionType: "Payment",
+    Destination: "r...",
+    Amount: "1000000"
+  },
+  options: {
+    return_url: {
+      app: "https://sample.test/?...",
+      web: "https://sample.test/?id={id}"
+    },
+    force_network: "MAINNET"
+  },
+  custom_meta: {
+    identifier: "123123",
+    instruction: "Please sign this to..."
+  }
+}
+```
 
 The response of a `Sdk.payload.create()` operation, looks like this:
 

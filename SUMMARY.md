@@ -53,7 +53,7 @@
     * [xAppBuilder FAQ](environments/xapps-dapps/xappbuilder/xappbuilder-faq.md)
 * [📂 Backend (SDK / API)](environments/backend-sdk-api.md)
   * [User identification payloads](environments/backend-sdk-api/user-identification-payloads.md)
-* [🎛 Native Apps](environments/native-apps.md)
+* [🎛️ Native Apps](environments/native-apps.md)
 * [🙇 Identity (OAuth2, OpenID)](environments/identity-oauth2-openid/README.md)
   * [Test Tools](environments/identity-oauth2-openid/tools.md)
 

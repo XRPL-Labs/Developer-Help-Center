@@ -9,6 +9,10 @@ description: >-
 
 xApps are natively aware of the end user context, so a Sign Request payload can easily be served with the `xumm.xapp.openSignRequest` method: [opensignrequest.md](../../sdk-syntax/xumm.xapp/opensignrequest.md "mention")
 
+{% hint style="info" %}
+For more information about the object contents to be used for Payloads & the return URL replacement variables, see: [https://xumm.readme.io/reference/post-payload](https://xumm.readme.io/reference/post-payload)
+{% endhint %}
+
 {% tabs %}
 {% tab title="JavaScript (VanillaJS)" %}
 ```html
@@ -28,9 +32,22 @@ xApps are natively aware of the end user context, so a Sign Request payload can 
 
       xumm.payload
         .create({
-          TransactionType: "Payment",
-          Destination: "rwietsevLFg8XSmG3bEZzFein1g8RBqWDZ",
-          Amount: "1000",
+          txjson: {
+            TransactionType: "Payment",
+            Destination: "r...",
+            Amount: "1000000"
+          },
+          options: {
+            return_url: {
+              app: "https://sample.test/?...",
+              web: "https://sample.test/?id={id}"
+            },
+            force_network: "MAINNET"
+          },
+          custom_meta: {
+            identifier: "123123",
+            instruction: "Please sign this to..."
+          }
         })
         .then(payload => {
           document.getElementById('payload').innerHTML = JSON.stringify(payload, null, 2)
@@ -45,9 +62,22 @@ xApps are natively aware of the end user context, so a Sign Request payload can 
 {% tab title="TypeScript / mjs" %}
 ```typescript
 const payload = await xumm.payload?.create({
-  TransactionType: "Payment",
-  Destination: "rwietsevLFg8XSmG3bEZzFein1g8RBqWDZ",
-  Amount: "1000",
+  txjson: {
+    TransactionType: "Payment",
+    Destination: "r...",
+    Amount: "1000000"
+  },
+  options: {
+    return_url: {
+      app: "https://sample.test/?...",
+      web: "https://sample.test/?id={id}"
+    },
+    force_network: "MAINNET"
+  },
+  custom_meta: {
+    identifier: "123123",
+    instruction: "Please sign this to..."
+  }
 })
 
 xumm.xapp?.openSignRequest(payload)

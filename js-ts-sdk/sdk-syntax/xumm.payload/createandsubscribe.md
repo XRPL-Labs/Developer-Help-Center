@@ -1,8 +1,8 @@
-# createAndSubscribe( ... )
+# createAndSubscribe( … )
 
 The [`<PayloadAndSubscription>`](https://github.com/XRPL-Labs/XUMM-SDK/blob/master/src/types/Payload/PayloadAndSubscription.ts) object is basically a [`<PayloadSubscription>`](https://github.com/XRPL-Labs/XUMM-SDK/blob/master/src/types/Payload/PayloadSubscription.ts) object with the created payload results in the `created` property:
 
-All information that applies on `Sdk.payload.create()` and `Sdk.payload.subscribe()` applies. [create.md](create.md "mention") / [subscribe.md](subscribe.md "mention")\
+All information that applies on `Sdk.payload.create()` and `Sdk.payload.subscribe()` applies. [create.md](create.md "mention") / [subscribe.md](subscribe.md "mention"). For the contents of a Payload, see the [**API Docs for more information about payloads object contents**](https://xumm.readme.io/reference/post-payload).\
 \
 Differences are:
 

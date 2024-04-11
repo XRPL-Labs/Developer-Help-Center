@@ -23,13 +23,30 @@ When a user visits on their smartphone with Xumm installed, your application can
 
 To make sure the user is expecting Xumm to open, the best user experience would be to ask the user to open Xumm (with a button), alternatively allowing them to use a button to just show the QR code, so the Sign Request can be opened on another device.
 
+{% hint style="info" %}
+For more information about the object contents to be used for Payloads & the return URL replacement variables, see: [https://xumm.readme.io/reference/post-payload](https://xumm.readme.io/reference/post-payload)
+{% endhint %}
+
 {% tabs %}
 {% tab title="Promise" %}
 ```javascript
 xumm.payload.create({
-  TransactionType: 'Payment',
-  Destination: 'rfHn6cB5mmqZ6fHZ4fdemCDSxqLTijgMwo',
-  Amount: String(1)
+  txjson: {
+    TransactionType: "Payment",
+    Destination: "r...",
+    Amount: "1000000"
+  },
+  options: {
+    return_url: {
+      app: "https://sample.test/?...",
+      web: "https://sample.test/?id={id}"
+    },
+    force_network: "MAINNET"
+  },
+  custom_meta: {
+    identifier: "123123",
+    instruction: "Please sign this to..."
+  }
 }).then(payload => {
   // Redirect directly to payload.next.always, or (preferable)
   var btn = document.getElementById('launchXummBtn')
@@ -41,9 +58,22 @@ xumm.payload.create({
 {% tab title="Async" %}
 ```typescript
 const paload = await xumm.payload.create({
-  TransactionType: 'Payment',
-  Destination: 'rfHn6cB5mmqZ6fHZ4fdemCDSxqLTijgMwo',
-  Amount: String(1)
+  txjson: {
+    TransactionType: "Payment",
+    Destination: "r...",
+    Amount: "1000000"
+  },
+  options: {
+    return_url: {
+      app: "https://sample.test/?...",
+      web: "https://sample.test/?id={id}"
+    },
+    force_network: "MAINNET"
+  },
+  custom_meta: {
+    identifier: "123123",
+    instruction: "Please sign this to..."
+  }
 })
 
 // Now assigin the link to a button or redirect the user straight away to:

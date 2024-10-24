@@ -1,18 +1,18 @@
 ---
 description: >-
-  You focus on building your cool app. We make sure your app & Xumm users can
+  You focus on building your cool app. We make sure your app & Xaman users can
   interact. Safely & smoothly.
 ---
 
-# Build on Xumm
+# Build on Xaman
 
-**Welcome to the Xumm Developer Docs!**\
+**Welcome to the Xaman Developer Docs!**\
 \
-**Xumm is a powerful platform designed to make your interaction with the XRP Ledger (XRPL) seamless. Whether you are an experienced developer or just getting started, Xumm offers a range of features, including xApps, payloads, transaction signing, and much more.**\
+**Xaman is a powerful platform designed to make your interaction with the XRP Ledger (XRPL) seamless. Whether you are an experienced developer or just getting started, Xaman offers a range of features, including xApps, payloads, transaction signing, and much more.**\
 \
 **This documentation will guide you through the essentials to get you up and running in no time.**
 
-While app users can simply use the Xumm app to manage their XRP ledger accounts, balances and transactions, the true power of Xumm can be experienced through the Xumm SDK, using our platform made available for developers.
+While app users can simply use the Xaman app to manage their XRP ledger accounts, balances and transactions, the true power of Xaman can be experienced through the Xaman SDK, using our platform made available for developers.
 
 
 
@@ -22,17 +22,17 @@ Want to dive straight in? You're one click away from the [examples-user-stories]
 
 ## Ways to interact
 
-The Xumm SDK can be used to interact with Xumm users. An example can be a "sign request", where the user is asked to sign a transaction, identification (sign in) or a user interface presented in Xumm (xApp).
+The Xaman SDK can be used to interact with Xaman users. An example can be a "sign request", where the user is asked to sign a transaction, identification (sign in) or a user interface presented in Xaman (xApp).
 
 {% hint style="info" %}
 What are you going to build? Read more about specific user & developer flows:
 {% endhint %}
 
-<table data-column-title-hidden data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>Client side web apps "Web3"</strong></td><td><a href="environments/browser-web3/">browser-web3</a></td><td><a href=".gitbook/assets/browsers.png">browsers.png</a></td></tr><tr><td><strong>xApps: your web app in Xumm</strong></td><td><a href="environments/xapps-dapps/">xapps-dapps</a></td><td><a href=".gitbook/assets/xapps.png">xapps.png</a></td></tr><tr><td><strong>Backend integrations</strong></td><td><a href="environments/backend-sdk-api.md">backend-sdk-api.md</a></td><td><a href=".gitbook/assets/nodejs.png">nodejs.png</a></td></tr><tr><td><strong>Xumm as Identity Provider</strong></td><td><a href="environments/identity-oauth2-openid/">identity-oauth2-openid</a></td><td><a href=".gitbook/assets/openid.png">openid.png</a></td></tr></tbody></table>
+<table data-column-title-hidden data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>Client side web apps "Web3"</strong></td><td><a href="environments/browser-web3/">browser-web3</a></td><td><a href=".gitbook/assets/browsers.png">browsers.png</a></td></tr><tr><td><strong>xApps: your web app in Xaman</strong></td><td><a href="environments/xapps-dapps/">xapps-dapps</a></td><td><a href=".gitbook/assets/xapps.png">xapps.png</a></td></tr><tr><td><strong>Backend integrations</strong></td><td><a href="environments/backend-sdk-api.md">backend-sdk-api.md</a></td><td><a href=".gitbook/assets/nodejs.png">nodejs.png</a></td></tr><tr><td><strong>Xaman as Identity Provider</strong></td><td><a href="environments/identity-oauth2-openid/">identity-oauth2-openid</a></td><td><a href=".gitbook/assets/openid.png">openid.png</a></td></tr></tbody></table>
 
 ## Packages
 
-The Xumm SDK offers a ready to use Javascript & Typescript SDK for all frontend and backend projects. With only minor differences depending on the environment you are using the SDK in, the SDK is the most convenient way to interact with Xumm users & the Xumm ecosystem.
+The Xaman SDK offers a ready to use Javascript & Typescript SDK for all frontend and backend projects. With only minor differences depending on the environment you are using the SDK in, the SDK is the most convenient way to interact with Xaman users & the Xaman ecosystem.
 
 If you are not working in a [Javascript/Typescript](https://www.npmjs.com/package/xumm) environment and prefer to build your own backend implementation, you can use our [API (endpoint) documentation](https://xumm.readme.io/reference/about) or use one of our SDKs for [Python (PyPI)](https://pypi.org/project/xumm-sdk-py/), [PHP (Packagist)](https://packagist.org/packages/xrpl/xumm-sdk-php) or [C# (NuGet)](https://www.nuget.org/packages/XUMM.NET.SDK)
 

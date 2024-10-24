@@ -1,17 +1,17 @@
 ---
 description: >-
-  Developers can use the Xumm SDK to easily integrate with the Xumm platform.
+  Developers can use the Xaman SDK to easily integrate with the Xaman platform.
   This allows for easy & secure end user interaction. With your application &
   the XRP Ledger.
 ---
 
-# Xumm SDK (Intro)
+# Xaman SDK (Intro)
 
 ## JavaScript/TypeScript
 
 ### NPM
 
-The Xumm Javascript/TypeScript SDK can be found on **npm**:
+The Xaman Javascript/TypeScript SDK can be found on **npm**:
 
 {% embed url="https://www.npmjs.com/package/xumm" %}
 
@@ -20,7 +20,7 @@ The Xumm Javascript/TypeScript SDK can be found on **npm**:
 The latest version of the Xumm SDK is always available at:
 
 ```
-https://xumm.app/assets/cdn/xumm.min.js
+https://xaman.app/assets/cdn/xumm.min.js
 ```
 
 {% hint style="info" %}

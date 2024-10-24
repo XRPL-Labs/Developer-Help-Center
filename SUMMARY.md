@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Build on Xumm](README.md)
+* [Build on Xaman](README.md)
 
 ## Concepts
 
@@ -59,7 +59,7 @@
 
 ## JS/TS SDK
 
-* [Xumm SDK (Intro)](js-ts-sdk/xumm-sdk-intro.md)
+* [Xaman SDK (Intro)](js-ts-sdk/xumm-sdk-intro.md)
 * [Examples / User stories](js-ts-sdk/examples-user-stories/README.md)
   * [Sign Requests (payloads)](js-ts-sdk/examples-user-stories/sign-requests-payloads/README.md)
     * [Browser](js-ts-sdk/examples-user-stories/sign-requests-payloads/browser.md)

@@ -105,10 +105,10 @@ xumm.payload.createAndSubscribe({
   Destination: 'rfHn6cB5mmqZ6fHZ4fdemCDSxqLTijgMwo',
   Amount: String(1000000) // one million drops, 1 XRP
 }, eventMessage => {
-  if (Object.keys(eventMessage.data).indexOf('opened') > -1) {
+  if ('opened' in eventMessage.data) {
     // Update the UI? The payload was opened.
   }
-  if (Object.keys(eventMessage.data).indexOf('signed') > -1) {
+  if ('signed' in eventMessage.data) {
     // The `signed` property is present, true (signed) / false (rejected)
     return eventMessage
   }
@@ -131,10 +131,10 @@ const { created, resolved } = await xumm.payload.createAndSubscribe({
   Destination: 'rfHn6cB5mmqZ6fHZ4fdemCDSxqLTijgMwo',
   Amount: String(1000000) // one million drops, 1 XRP
 }, eventMessage => {
-  if (Object.keys(eventMessage.data).indexOf('opened') > -1) {
+  if ('opened' in eventMessage.data) {
     // Update the UI? The payload was opened.
   }
-  if (Object.keys(eventMessage.data).indexOf('signed') > -1) {
+  if ('signed' in eventMessage.data) {
     // The `signed` property is present, true (signed) / false (rejected)
     return eventMessage
   }

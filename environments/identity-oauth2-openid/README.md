@@ -48,16 +48,24 @@ Building your own integration, or using a standard OAuth2 consumer? All JWT toke
 All JWTs the obtained by a successful user sign in are valid for **one day (24h)**
 {% endhint %}
 
-## Sample code
+## Auth URL
 
-...
+#### Special parameters
 
-## User properties (userinfo-endpoint)
+* `force_network` allows you to specify a network the payload will have to be signed on. Sample values are `MAINNET` `TESTNET` `XAHAU` `XAHAUTESTNET`, etc.
+* `signers` allows you to specify one or more forced signers, by r-address, seperated by a comma (if multiple are to be provided where the user can choose from, providing they have signing capabilities for the account(s))
 
-...
+Sample Auth URL using the above params:
+
+```
+https://oauth2.xumm.app/auth
+  ?client_id=47fdfcb7-8362-47fe-9a89-a2efc55e86d5
+  &redirect_uri=https://dev.wietse.com
+  &response_type=token
+  &force_network=MAINNET
+  &signers=rwietsevLFg8XSmG3bEZzFein1g8RBqWDZ,rTeLeproT3BVgjWoYrDYpKbBLXPaVMkge
+```
 
 ## OAuth2 & OpenID Connect endpoints
-
-...
 
 <table><thead><tr><th width="250">Endpoint type</th><th>Path (URL linked)</th></tr></thead><tbody><tr><td>Authorization</td><td>https://oauth2.xumm.app/<a href="https://oauth2.xumm.app/auth">auth</a></td></tr><tr><td>Token</td><td>https://oauth2.xumm.app/<a href="https://oauth2.xumm.app/token">token</a></td></tr><tr><td>Userinfo</td><td>https://oauth2.xumm.app/<a href="https://oauth2.xumm.app/userinfo">userinfo</a></td></tr><tr><td>JWKS</td><td>https://oauth2.xumm.app/<a href="https://oauth2.xumm.app/certs">certs</a></td></tr><tr><td>OpenID Connect Metadata </td><td>https://oauth2.xumm.app/<a href="https://oauth2.xumm.app/.well-known/openid-configuration">.well-known/openid-configuration</a></td></tr><tr><td><em>All other JWT compatible Xumm API's</em></td><td>See our API docs: <a href="https://xumm.readme.io/reference/oauth2-jwt">reference/oauth2-jwt</a></td></tr></tbody></table>

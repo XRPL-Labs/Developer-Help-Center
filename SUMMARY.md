@@ -36,6 +36,10 @@
 * [Implementation checklist](concepts/implementation-checklist/README.md)
   * [Protocol specific checks](concepts/implementation-checklist/protocol-specific-checks.md)
 
+***
+
+* [Simple Sign Link/QR](simple-sign-link-qr.md)
+
 ## Environments
 
 * [🌎 Browser ("Web3")](environments/browser-web3/README.md)

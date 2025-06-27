@@ -38,3 +38,9 @@ Instead of prefixing with `https://xaman.app/detect/request` you can prefix with
 * `invoiceid` - The InvoiceID to send, must be formatted in HEX according to the InvoiceID length specifications (64 hex chars) - usually omitted
 * `issuer` - The issuing account, only required combined with `currency` for requests in issued currencies
 * `currency` - The currency code, must be in three-char ALPHA notation or HEX notation for issued currencies with asset codes > 3 char length. Only required in combination with `issuer` for payments in issued assets.
+
+## App Developers
+
+For App/Platform developers, there's an easy JS lib. to decode strings & parse them into normalised objects to support payment requests (and other ecosystem data formats):
+
+[https://www.npmjs.com/package/xumm-string-decode](https://www.npmjs.com/package/xumm-string-decode)

@@ -36,9 +36,10 @@
 * [Implementation checklist](concepts/implementation-checklist/README.md)
   * [Protocol specific checks](concepts/implementation-checklist/protocol-specific-checks.md)
 
-***
+## Simple link / QR
 
-* [Simple Sign Link/QR](simple-sign-link-qr.md)
+* [Payment Request Link](simple-link-qr/payment-request-link.md)
+* [TrustSet Link/QR](simple-link-qr/trustset-link-qr.md)
 
 ## Environments
 

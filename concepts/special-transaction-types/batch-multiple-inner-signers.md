@@ -136,7 +136,15 @@ The same routine has then to be walked through for other signers.
 
 ### 3. Combine the inner transaction signatures and submit the Batch
 
-Every Sign Request in the previous steps (per signer) is assigned an `uuid`. Gather those who are signed succesfully by the inner Batch transactions participants, to be combined (bundled) later to submit the Batch transaction. Now a specific signer is **not required** and `submit` can be `true` :
+Every Sign Request in the previous steps (per signer) is assigned an `uuid`. Gather those who are signed succesfully by the inner Batch transactions participants, to be combined (bundled) later to submit the Batch transaction. Now a specific signer is **not required** and `submit` can be `true` .
+
+{% hint style="success" %}
+Note! While the official Batch spec requires a full signer object to be present in the `BatchSigners` field, Xaman accepts three different notations:
+
+1. Conform native XRPL implementation: `BatchSigners` formatted object, containing an STArray with multiple signer pubkeys + their signature
+2. **Xaman specific (**_**more**_**&#x20;convenient)**: the signed TX blob (as string) - this works for TX blobs signed by Xaman, or by any other XRPL signing implementation.
+3. **Xaman specific (most convenient)**: the signed Payload UUID - this works only if all signers are Xaman users.
+{% endhint %}
 
 <pre class="language-json"><code class="lang-json">{
   "options": {

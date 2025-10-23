@@ -35,7 +35,7 @@ The workflow woud be as follows:
 
 ### 1. Multiple participants in \`RawTransactions\`
 
-Craft the Batch transaction with the `RawTransactions` containing all transactions to be approved (signed) by different participants. **At this stage the r-addresses for the individual transactions must already be known.** The overall Batch may look like below.
+Craft the Batch transaction with the `RawTransactions` containing all transactions to be approved (signed) by different participants. **At this stage the r-addresses for the individual transactions must already be known** (see: [signin.md](signin.md "mention"))**.** The overall Batch may look like below.
 
 {% hint style="success" %}
 At this stage the upper Batch Transaction can have the `Sequence`/`Ticket` , `Fee`, and `Account` fields omitted. They don't have to be known yet, as they can be added later when the inner transactions are signed and any account can submit the bundle.

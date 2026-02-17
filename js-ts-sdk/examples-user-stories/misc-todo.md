@@ -1,4 +1,4 @@
-# Code examples
+# Simple Sign Request
 
 {% tabs %}
 {% tab title="TypeScript / ESM (Backend)" %}
@@ -21,9 +21,9 @@ console.log(payload)
 ```
 {% endcode %}
 
-####
 
-#### See this code in action:
+
+**See this code in action:**
 
 {% embed url="https://codesandbox.io/p/sandbox/xumm-sdk-6gm4du?file=/src/index.ts" %}
 {% endtab %}

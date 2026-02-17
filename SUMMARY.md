@@ -32,6 +32,7 @@
   * [SignIn](concepts/special-transaction-types/signin.md)
   * [Batch (multiple inner signers)](concepts/special-transaction-types/batch-multiple-inner-signers.md)
   * [PaymentChannelAuthorize](concepts/special-transaction-types/paymentchannelauthorize.md)
+* ["Pay With Anything"](concepts/pay-with-anything.md)
 * [Limitations](concepts/limitations/README.md)
   * [Rate limits](concepts/limitations/rate-limits.md)
   * [Transaction types](concepts/limitations/transaction-types.md)

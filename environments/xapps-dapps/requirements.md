@@ -13,6 +13,62 @@ xApps are WebApps, embedded in Xumm for a great user experience. They add value 
 * Promotion of speculation, pushing users towards buying tokens is not allowed (see: user protection)
 * Activating xApp features and building a sandbox xApp does NOT guarantee your xApp will be going live in the future. To take your xApp live, it will be audited by XRPL Labs. The rules above apply, security & usability will be tested. If you want to have more certainty in advance, please [reach out](mailto:support@xrpl-labs.com).
 
+## TL;DR
+
+**Support & Legal**
+
+* Clear links to Support, Privacy Policy, and Terms & Conditions
+* Functional contact/support channels and appropriate project information
+
+**xApp-Native UX**
+
+* Should feel like a native xApp, not a website embedded in Xaman
+* Mobile-first with simple, consistent navigation
+* Avoid unnecessary website elements such as desktop menus, cookie banners, or oversized footers
+
+**Xaman Authentication**
+
+* No “Login with Xaman” / “Disconnect Xaman” flows
+* Use the user/account context already provided through the xApp OTT
+* Do not ask users to connect or reconnect Xaman
+
+**Simple & Intuitive**
+
+* Purpose and functionality should be immediately clear
+* Keep flows simple with clear buttons, labels, instructions, and confirmations
+* Important actions should be easy to find
+
+**Mobile Compatibility**
+
+* Must work properly on iOS and Android, including smaller Android screens
+* No cut-off, overlapping, or inaccessible UI elements
+* Test the complete flow across different screen sizes
+
+**Quality**
+
+* Professional, polished, and consistent UI
+* Consistent light/dark mode where applicable
+* No broken links, placeholders, glitches, or unfinished screens
+* Smooth and responsive performance
+
+**Transactions & Security**
+
+* Clearly explain what users are signing and why
+* Signing requests must be explicitly initiated by the user
+* Clearly show relevant fees, risks, and consequences
+* Never request account secrets, Secret Numbers, seed phrases, or private keys
+* Clearly identify third-party services and warn users about high-risk actions
+
+**Purpose & Value**
+
+* Provide clear value specifically for Xaman/XRPL users
+* Avoid simply wrapping an existing website
+* Keep the xApp focused on its core functionality
+
+**Overall**
+
+The xApp should feel like a secure, polished, intuitive, mobile-first extension of Xaman, not a website opened inside Xaman.
+
 ## All xApps
 
 * The xApp should be self explanatory, or do a good job explaining to the users what the xApp offers in the very first screen the xApp shows
@@ -23,15 +79,15 @@ xApps are WebApps, embedded in Xumm for a great user experience. They add value 
 ## Technical
 
 * All links to external sites / window opens must be replaced by a `openBrowser` call on the Xumm SDK: [xumm-ui-interaction.md](xumm-ui-interaction.md "mention") so that users won't reach another website through navigating in the xApp
-* Reliable user-bound storage is available not through cookies / localStorage, but through the Xumm `userstore`: [xumm.userstore](../../js-ts-sdk/sdk-syntax/xumm.userstore "mention")
+* Reliable user-bound storage is available not through cookies / localStorage, but through the Xumm `userstore`: [https://github.com/XRPL-Labs/Developer-Help-Center/blob/main/js-ts-sdk/sdk-syntax/xumm.userstore](https://github.com/XRPL-Labs/Developer-Help-Center/blob/main/js-ts-sdk/sdk-syntax/xumm.userstore "mention")
 * No polling should be used: to retrieve the status of a payload, use the websocket we provide for status updates (or the `createAndSubscribe` / `subscribe` method provided by the SDK: [createandsubscribe.md](../../js-ts-sdk/sdk-syntax/xumm.payload/createandsubscribe.md "mention") / [createandsubscribe.md](../../js-ts-sdk/sdk-syntax/xumm.payload/createandsubscribe.md "mention")). Backend applications can also use a webhook: [webhooks](../../concepts/payloads-sign-requests/status-updates/webhooks/ "mention").
 
-## Accessibility&#x20;
+## Accessibility
 
-* Simple accessible navigation&#x20;
+* Simple accessible navigation
 * Clear icons:\
   ![](<../../.gitbook/assets/icons (1).png>)
-* Reduce clutter: Keep minimum content on screen&#x20;
+* Reduce clutter: Keep minimum content on screen
 * Use accessible fonts\
   ![](../../.gitbook/assets/fonts.png)
 * Use minimal of 16pt font for standard **body text**
@@ -48,7 +104,7 @@ xApps are WebApps, embedded in Xumm for a great user experience. They add value 
   ![](<../../.gitbook/assets/error text.png>)
 * Appropriate color contrast:\
   ![](../../.gitbook/assets/contrast.png)
-* No slang or bad grammar. Use proper English.&#x20;
+* No slang or bad grammar. Use proper English.
 * Human like language:\
   ![](<../../.gitbook/assets/add to cart (1).png>)
 * Breaking up content:\

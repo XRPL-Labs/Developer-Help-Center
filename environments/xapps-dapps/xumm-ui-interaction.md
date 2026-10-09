@@ -1,18 +1,18 @@
 ---
 description: >-
-  Using the Xumm SDK in xApps, you can trigger native Xumm interaction & receive
-  events from Xumm in your xApp.
+  Using the Xaman SDK in xApps, you can trigger native Xaman interaction &
+  receive events from Xaman in your xApp.
 ---
 
-# Xumm UI interaction
+# Xaman UI interaction
 
-xApps are WebApps. They are opened in Xumm for a great user experience. They add value (tooling, wizards) for end users, using Sign Requests to help users perform tasks on the XRPL.
+xApps are WebApps. They are opened in Xaman for a great user experience. They add value (tooling, wizards) for end users, using Sign Requests to help users perform tasks on the XRPL.
 
-To add value for end users, your xApp will most likely implement some of the features Xumm offers natively in your xApp. E.g. open the QR scanner, Account Destination Picker, or start a Sign Request flow. Then to receive the response from these native Xumm flows in your xApp (WebApp).
+To add value for end users, your xApp will most likely implement some of the features Xaman offers natively in your xApp. E.g. open the QR scanner, Account Destination Picker, or start a Sign Request flow. Then to receive the response from these native Xaman flows in your xApp (WebApp).
 
-**Your xApp can trigger specific actions in Xumm:**
+**Your xApp can trigger specific actions in Xaman:**
 
-These actions can be sent form your xApp (frontend Javascript) context, and will trigger functionality native to the Xumm app:
+These actions can be sent form your xApp (frontend Javascript) context, and will trigger functionality native to the Xaman app:
 
 * Open a Sign Request
 * Open the QR scanner to retrieve a scanned value
@@ -20,12 +20,12 @@ These actions can be sent form your xApp (frontend Javascript) context, and will
 * etc.
 
 {% hint style="info" %}
-To prevent showing a double loader (first the Xumm xApp loader, then your xApp's loader while hydrating / booting) you can enable the "**Xumm Loader Screen**" option in the Xumm Developer Console (xApp tab). See [ready.md](../../js-ts-sdk/sdk-syntax/xumm.xapp/ready.md "mention")
+To prevent showing a double loader (first the Xaman xApp loader, then your xApp's loader while hydrating / booting) you can enable the "**Xaman Loader Screen**" option in the Xaman Developer Console (xApp tab). See [ready.md](../../js-ts-sdk/sdk-syntax/xumm.xapp/ready.md "mention")
 {% endhint %}
 
-**Your xApp can also receive events (data) from Xumm:**
+**Your xApp can also receive events (data) from Xaman:**
 
-Certain actions in Xumm will trigger an event so your xApp can retrieve data or act based on the event (details below):
+Certain actions in Xaman will trigger an event so your xApp can retrieve data or act based on the event (details below):
 
 * Payload resolved
 * QR Code scanner opened/closed
@@ -60,7 +60,7 @@ Certain actions in Xumm will trigger an event so your xApp can retrieve data or 
 ## Trigger actions
 
 {% hint style="info" %}
-For all Xumm UI (interface) actions / worfklows you can trigger, see the SDK documentation: [xumm.xapp](../../js-ts-sdk/sdk-syntax/xumm.xapp/ "mention")
+For all Xaman UI (interface) actions / worfklows you can trigger, see the SDK documentation: [https://github.com/XRPL-Labs/Developer-Help-Center/blob/main/js-ts-sdk/sdk-syntax/xumm.xapp](https://github.com/XRPL-Labs/Developer-Help-Center/blob/main/js-ts-sdk/sdk-syntax/xumm.xapp "mention")
 {% endhint %}
 
 ## Receive events

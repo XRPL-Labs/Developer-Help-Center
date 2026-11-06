@@ -7,7 +7,7 @@ description: Technical requirements for building an xApp
 xApps are web apps, embedded in Xaman. They add value for users, using sign requests and their own interface to help users do things on the XRP Ledger and beyond. To build one, you need experience with frontend web development.
 
 {% hint style="info" %}
-**This page covers the technical requirements for building an xApp.** For the full review process, including what we require, how to request a review, and what happens after approval, see [xApp publishing and review](https://help.xaman.app/app/learning-more-about-xaman/guidelines-and-review-process-of-publishing-xapps).
+**This page covers the technical requirements for building an xApp.** For the full review process, including what we require, how to request a review, and what happens after approval, see [xApp publishing and review](xapp-publishing-and-review.md).
 {% endhint %}
 
 ### At a glance
@@ -68,7 +68,7 @@ These are the requirements developers most often miss. The full list is in the [
 * Use natural, human language: ![](https://416994804-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F61N8uUPfBBFEqPdV1U4Y%2Fuploads%2Fgit-blob-59c0f2773978c38c62d1f88605277215f348d810%2Fadd%20to%20cart.png?alt=media)
 * Break up long content into smaller parts: ![](https://416994804-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F61N8uUPfBBFEqPdV1U4Y%2Fuploads%2Fgit-blob-a48e340e577b5b2c830d699fc0d5cc98e76c6264%2Fcontent.png?alt=media)
 
-### **Accessibility tools:**
+### Accessibility tools
 
 * Contrast checker 1: [https://accessibleweb.com/color-contrast-checker](https://accessibleweb.com/color-contrast-checker)
 * Contrast checker 2: [https://contrastchecker.com/](https://contrastchecker.com/)

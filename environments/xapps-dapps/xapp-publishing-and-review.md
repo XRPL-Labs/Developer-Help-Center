@@ -68,8 +68,10 @@ Each item below is a yes or no. If your xApp doesn't meet any one of them, we'll
 
 * The `<html>` and `<body>` tags have a transparent background as soon as the page loads, so your xApp doesn't flash white while it loads.
 * Your xApp either has its own colour scheme that works in every Xaman theme, or follows Xaman's themes (Light, Dark, Moonlight, and Royal). Xaman passes the active theme in the `xAppStyle` query parameter. See the [xApp style guide](https://docs.xaman.dev/environments/xapps-dapps/style-guide).
-* **Technical**
-  * Your xApp meets the [technical requirements](https://docs.xaman.dev/environments/xapps-dapps/requirements), including opening external links with `openBrowser`, storing user data with `userstore`, and not polling for payload status.
+
+**Technical**
+
+* Your xApp meets the [technical requirements](https://docs.xaman.dev/environments/xapps-dapps/requirements), including opening external links with `openBrowser`, storing user data with `userstore`, and not polling for payload status.
 
 **Works on every phone**
 

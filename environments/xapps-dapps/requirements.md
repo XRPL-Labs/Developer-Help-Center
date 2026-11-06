@@ -7,34 +7,32 @@ description: Technical requirements for building an xApp
 xApps are web apps, embedded in Xaman. They add value for users, using sign requests and their own interface to help users do things on the XRP Ledger and beyond. To build one, you need experience with frontend web development.
 
 {% hint style="info" %}
-**This page covers the technical requirements for building an xApp.** For the full review process, including what we require, how to request a review, and what happens after approval, see [xApp publishing and review](https://docs.xaman.dev/environments/xapps-dapps/xapp-publishing-and-review).&#x20;
+**This page covers the technical requirements for building an xApp.** For the full review process, including what we require, how to request a review, and what happens after approval, see [xApp publishing and review](https://help.xaman.app/app/learning-more-about-xaman/guidelines-and-review-process-of-publishing-xapps).
 {% endhint %}
 
 ### At a glance
 
 1. Build your xApp. You can start with a sandboxed xApp right away.
 2. Test it with up to 10 testers.
-3. Meet the requirements on this page.
-4. Submit your source code with a description of what your xApp does.
-5. Our development team reviews the code and tests the xApp.
+3. Meet the requirements on this page and in [xApp publishing and review](xapp-publishing-and-review.md).
+4. Request a review by creating a ticket in the [Xaman Support xApp](https://xaman.app/detect/xapp:xumm.support-md), with a link to your public source code and a description of what your xApp does.
+5. Our team reviews your xApp in stages, including its code, functionality, and the project behind it.
 6. If approved, your xApp gets a public link that any Xaman user can open.
 
 ### Three types of xApp
 
-| Type                    | Who can open it                      |
-| ----------------------- | ------------------------------------ |
-| Sandboxed               | You and up to 10 testers             |
-| Link (QR/deeplink) only | Anyone you share the link or QR with |
-| Public (listed)         | All Xaman users                      |
-
-Each type has its own requirements further down this page.
+| Type                       | Who can open it                      |
+| -------------------------- | ------------------------------------ |
+| Sandboxed                  | You and up to 10 testers             |
+| Approved (link or QR only) | Anyone you share the link or QR with |
+| Listed                     | All Xaman users                      |
 
 ### Key requirements
 
-These are the requirements developers most often miss. The full list is in the [xApp publishing and review](https://docs.xaman.dev/environments/xapps-dapps/xapp-publishing-and-review) article.
+These are the requirements developers most often miss. The full list is in the [xApp publishing and review](xapp-publishing-and-review.md) article.
 
 * You've completed KYC, and you're not anonymous.
-* The source code of your xApp, and of its backend if it has one, is public on GitHub. Listed xApps have two alternatives. See Public (listed) xApps.
+* The source code of your xApp, and of its backend if it has one, is public on GitHub.
 * Your xApp never asks for an account secret or private keys, in any form.
 * Your xApp never asks users to sign SetRegularKey or SignerListSet transactions. There are no exceptions.
 * Use the user and account details from the xApp OTT. Do not build "Login with Xaman", "Connect Xaman", or "Disconnect Xaman" flows. See [Authorization & Credentials](https://docs.xaman.dev/concepts/authorization.md).
@@ -53,28 +51,28 @@ These are the requirements developers most often miss. The full list is in the [
 
 ### Accessibility
 
-* Simple accessible navigation
+* Simple, accessible navigation
 * Clear icons: ![](https://416994804-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F61N8uUPfBBFEqPdV1U4Y%2Fuploads%2Fgit-blob-b52a10d3e93d08b186523aad8c191160df521835%2Ficons.png?alt=media)
-* Keep minimum content on screen, reduce clutter
+* Keep content on screen to a minimum, and reduce clutter
 * Use accessible fonts: ![](https://416994804-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F61N8uUPfBBFEqPdV1U4Y%2Fuploads%2Fgit-blob-193e315fb922fc30655a457360046b4da88a0965%2Ffonts.png?alt=media)
-* Use a minimum of 16pt font for standard **body text**
-* Test on different devices: ![](https://416994804-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F61N8uUPfBBFEqPdV1U4Y%2Fuploads%2Fgit-blob-56fa8d9839f6d5d4816430922d8ddf159a22e52d%2Fdevices.png?alt=media)
-* Manage information on a logical level
-* Consistency in design
-* Use a 40x40px target area for touch controls
-* Good (horizontal) alignment: ![](https://416994804-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F61N8uUPfBBFEqPdV1U4Y%2Fuploads%2Fgit-blob-08600bfcb154c195210b8c1c36312290689d5428%2Falignment.png?alt=media)
-* Distinction between primary and secondary buttons: ![](https://416994804-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F61N8uUPfBBFEqPdV1U4Y%2Fuploads%2Fgit-blob-b3f2b36c8c90866250fcd941cfb6d9f35d0df88d%2Fbuttons.png?alt=media)
+* Use at least 16 px for standard **body text**
+* Test on different devices, including a screen width of 360 px: ![](https://416994804-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F61N8uUPfBBFEqPdV1U4Y%2Fuploads%2Fgit-blob-56fa8d9839f6d5d4816430922d8ddf159a22e52d%2Fdevices.png?alt=media)
+* Group related information together, in a logical order
+* Keep your design consistent
+* Use a touch area of at least 40 × 40 px for buttons and other touch controls
+* Align elements consistently: ![](https://416994804-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F61N8uUPfBBFEqPdV1U4Y%2Fuploads%2Fgit-blob-08600bfcb154c195210b8c1c36312290689d5428%2Falignment.png?alt=media)
+* Make primary and secondary buttons clearly different: ![](https://416994804-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F61N8uUPfBBFEqPdV1U4Y%2Fuploads%2Fgit-blob-b3f2b36c8c90866250fcd941cfb6d9f35d0df88d%2Fbuttons.png?alt=media)
 * Clear error text: ![](https://416994804-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F61N8uUPfBBFEqPdV1U4Y%2Fuploads%2Fgit-blob-2e6d9093e6ccd298442442d9b188d6e07d2ae1f3%2Ferror%20text.png?alt=media)
-* Appropriate color contrast: ![](https://416994804-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F61N8uUPfBBFEqPdV1U4Y%2Fuploads%2Fgit-blob-4412ef0bbdd2b52ce75d25bb8c24761bbbfecd22%2Fcontrast.png?alt=media)
+* Appropriate colour contrast: ![](https://416994804-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F61N8uUPfBBFEqPdV1U4Y%2Fuploads%2Fgit-blob-4412ef0bbdd2b52ce75d25bb8c24761bbbfecd22%2Fcontrast.png?alt=media)
 * Write in clear, plain English
-* Human-like language: ![](https://416994804-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F61N8uUPfBBFEqPdV1U4Y%2Fuploads%2Fgit-blob-59c0f2773978c38c62d1f88605277215f348d810%2Fadd%20to%20cart.png?alt=media)
-* Break up content into smaller parts: ![](https://416994804-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F61N8uUPfBBFEqPdV1U4Y%2Fuploads%2Fgit-blob-a48e340e577b5b2c830d699fc0d5cc98e76c6264%2Fcontent.png?alt=media)
+* Use natural, human language: ![](https://416994804-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F61N8uUPfBBFEqPdV1U4Y%2Fuploads%2Fgit-blob-59c0f2773978c38c62d1f88605277215f348d810%2Fadd%20to%20cart.png?alt=media)
+* Break up long content into smaller parts: ![](https://416994804-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F61N8uUPfBBFEqPdV1U4Y%2Fuploads%2Fgit-blob-a48e340e577b5b2c830d699fc0d5cc98e76c6264%2Fcontent.png?alt=media)
 
-**Accessibility tools:**
+### **Accessibility tools:**
 
-* Contrast checker 1: https://accessibleweb.com/color-contrast-checker
-* Contrast checker 2: https://contrastchecker.com/
-* Icon set: https://feathericons.com/
+* Contrast checker 1: [https://accessibleweb.com/color-contrast-checker](https://accessibleweb.com/color-contrast-checker)
+* Contrast checker 2: [https://contrastchecker.com/](https://contrastchecker.com/)
+* Icon set: [https://feathericons.com/](https://feathericons.com/)
 
 ### Sandboxed xApps
 
@@ -82,16 +80,3 @@ These are the requirements developers most often miss. The full list is in the [
 * Only you and up to 10 testers can open it. You add testers by their Device ID in the Xaman Developer Console.
 * Having a sandboxed xApp is not an endorsement. Do not present it as one, for example on social media.
 * Building a sandboxed xApp does not guarantee that your xApp will be approved.
-
-### Link (QR/deeplink) only xApps
-
-* The xApp should look appealing.
-* The xApp should respect different Xaman user screen sizes.
-* The xApp should be well crafted: it should be clear what the xApp will do, and it should do what it promised to do.
-* The xApp should have a clear support workflow, and it should offer terms and conditions and a privacy statement.
-
-### Public (listed) xApps
-
-* The xApp should add real Xaman wallet value. If there is no actual wallet or XRPL interaction where the integration adds value, it should be a website, not an xApp.
-* Offer value (features people will appreciate or need) for a large part of the XRPL and Xaman user base.
-* The frontend source code must either be open source, shared (under NDA) with XRPL Labs for review, or covered by a third-party security audit (code and dependencies, plus dependency update procedures) acceptable to XRPL Labs.

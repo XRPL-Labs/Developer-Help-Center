@@ -51,6 +51,7 @@
   * [CORS (Browser)](environments/browser-web3/cors-browser.md)
 * [📱 xApps ("dApps")](environments/xapps-dapps/README.md)
   * [Requirements](environments/xapps-dapps/requirements.md)
+  * [xApp publishing and review](environments/xapps-dapps/xapp-publishing-and-review.md)
   * [Develop & Test](environments/xapps-dapps/develop-and-test.md)
   * [CORS (xApp)](environments/xapps-dapps/cors-xapp.md)
   * [Xaman UI interaction](environments/xapps-dapps/xumm-ui-interaction.md)

@@ -1,5 +1,7 @@
 ---
-description: What we require, what we expect, and what happens before and after
+description: >-
+  What we require, what we expect, and what happens before and after your xApp
+  goes live in Xaman
 ---
 
 # xApp publishing and review
@@ -66,6 +68,8 @@ Each item below is a yes or no. If your xApp doesn't meet any one of them, we'll
 
 * The `<html>` and `<body>` tags have a transparent background as soon as the page loads, so your xApp doesn't flash white while it loads.
 * Your xApp either has its own color scheme that works in every Xaman theme, or follows Xaman's themes (Light, Dark, Moonlight, and Royal). Xaman passes the active theme in the `xAppStyle` query parameter. See the [xApp style guide](https://docs.xaman.dev/environments/xapps-dapps/style-guide).
+* **Technical**
+  * Your xApp meets the [technical requirements](https://docs.xaman.dev/environments/xapps-dapps/requirements), including opening external links with `openBrowser`, storing user data with `userstore`, and not polling for payload status.
 
 **Works on every phone**
 
@@ -95,6 +99,7 @@ Your xApp should feel like part of Xaman, not a website opened inside it.
 * Mobile-first design, with simple, consistent navigation.
 * No desktop menus, cookie banners, oversized footers, or other website elements it doesn't need.
 * It's fine to have a website for your project. The xApp itself should be designed for use inside Xaman, not a copy of your site.
+* If your xApp has no real interaction with Xaman or the XRP Ledger, it should be a website, not an xApp.
 
 **Clear and simple**
 

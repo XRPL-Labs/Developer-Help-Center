@@ -12,11 +12,24 @@ If you want to identify a Xumm xApp user with your own backend, you can rely on 
 
 This makes it really convenient to obtain three things at once, making calls to your own backend with an `Autorization: Bearer {The Xumm JWT}` header:
 
-1. You obtain basic user information, like the r-address and network the user is connected to, as this information is encoded in the JWT.
+1. You obtain basic user information, like the r-address and network the user is connected to, as this information is encoded in the JWT (the r-address is the selected account, not a proven login: see below).
 2. You can verify the authenticity of the JWT, as it is signed with your own Xumm API Secret.
 3. You can make calls from the user context to the Xumm backend with this JWT (for as long as it is valid: 24h).
 
 Every time when a user opens your xApp, a new JWT is issued, valid for 24h.
+
+### The account in the JWT is not a login
+
+{% hint style="warning" %}
+**The account (r-address) in the xApp JWT and in the OTT data is not proof that the user owns that account.** It is the account that was selected in Xumm when the xApp was opened, as the app reported it.
+
+That is fine to:
+
+* show public, on-ledger information for that account,
+* prepare Sign Requests (payloads) for that account: nothing happens on the ledger until the owner of the account signs.
+
+Do **not** use it as a login for things that live on your own backend: private data, settings, off-ledger balances, or actions on behalf of that account. If your xApp shows or changes something like that, first ask the user to sign a [**SignIn** Sign Request](../../concepts/special-transaction-types/signin.md) and use the account that **signed** it (`response.account` of the resolved payload). The signature is the proof.
+{% endhint %}
 
 {% hint style="success" %}
 Please note: if you are using the OAuth2 flow instead of an xApp to obtain your JWT, you can verify the OAuth2 issued RS256 JWT using the certificate info publised as per OpenID specifications: [https://oauth2.xumm.app/certs](https://oauth2.xumm.app/certs)
